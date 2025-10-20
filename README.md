@@ -23,6 +23,7 @@ Quick start
    - python singleAction.py
 
 Notes
-- The included training/ subfolders contain example checkpoints for quick experiments.
+- The included training/ subfolders contain example checkpoints.
 - Ray may try to use a GPU if available; adjust config in singleAction.py or train.py as needed.
+
 
