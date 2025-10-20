@@ -15,7 +15,7 @@ What’s included
 Quick start
 1) Install dependencies
    - Python 3.10+ recommended
-   - run install.py
+   - python install.py
 2) Train
    - python train.py
    - Checkpoints are written under training/
@@ -25,3 +25,4 @@ Quick start
 Notes
 - The included training/ subfolders contain example checkpoints for quick experiments.
 - Ray may try to use a GPU if available; adjust config in singleAction.py or train.py as needed.
+
