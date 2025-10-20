@@ -73,37 +73,7 @@ def main():
         'trade_state': spaces.Box(low=0, high=29, shape=(2,), dtype=np.int8)
     })
 
-    # Define a single policy that will be shared by all agents
-    policies = {
-        "shared2" : (
-            None, agent_obs_space, spaces.Discrete(123), {"model": {"custom_model": "masked_actions_model"}}
-        ),
-        "shared_policy": PolicySpec(
-            policy_class=None,  # use default policy
-            observation_space=agent_obs_space,  # inferred from env
-            action_space=spaces.Discrete(123),  # inferred from env
-            config={
-                "model": {
-                    "custom_model": "masked_actions_model",
-                    "fcnet_hiddens": [256, 256],
-                }
-            }
-        )
-    }
-
-    # Policy mapping function that maps all agents to the shared policy
-    def policy_mapping_fn(agent_id, episode, **kwargs):
-        if agent_id not in [f"agent_{i+1}" for i in range(4)]:
-            raise ValueError(f"Unknown agent_id: {agent_id}")
-        return "shared2"
-    """
-        .multi_agent(
-            policies=policies,
-            policy_mapping_fn=policy_mapping_fn,
-            # All agents train on their own experiences
-            policies_to_train=["shared2"],
-        )
-    """
+    # Define Config
     config = (
         PPOConfig()
         .environment(env="MonopolyEnv-v0")
@@ -132,32 +102,21 @@ def main():
             policy_mapping_fn=lambda agent_id, *args, **kwargs: "default_policy"
         )
     )
-    """.training(
-            train_batch_size=4000,
-            sgd_minibatch_size=256,
-            num_sgd_iter=10,
-            clip_param=0.2,
-            vf_clip_param=10.0,
-            entropy_coeff=0.01,
-            # Use a lower learning rate for more stable learning
-            lr=5e-5,
-        )"""
+
     # Function to create a logger
     def custom_logger_creator(config):
         logdir = os.path.expanduser("~/my_experiments/Monopoly_PPO")
         os.makedirs(logdir, exist_ok=True)
         return UnifiedLogger(config, logdir, loggers=None)
 
-    #config.api_stack(enable_rl_module_and_learner=False,enable_env_runner_and_connector_v2=False)
     if noSave:
         algo = config.build_algo()
     else:
         algo = config.build_algo(logger_creator=custom_logger_creator)
-    #algo.load_checkpoint("ppo_monopoly_selfplay")
+
     # Check if checkpoint exists first
     checkpoint_path = "training/ppo_monopoly_selfplay"
     if os.path.exists(checkpoint_path):
-        # Use a proper file URI format for local files
         try:
             # Try with full path to directory
             absolute_path = os.path.abspath(checkpoint_path)
@@ -176,10 +135,8 @@ def main():
     policy = algo.get_policy("default_policy")
     print("Policy model is:", type(policy.model))
 
-    for i in range(1, 31):  # Increase training iterations for better learning, 4.3 min/iter, 20 iter = 100k steps, 31=9.4h
+    for i in range(1, 31):  # Increase training iterations for better learning, ~20 min/iter, 10 iter = 200k steps, 31=9.4h
         result = algo.train()
-        #print(f"Iteration {i}: episode_reward_mean = {result['episode_reward_mean']}, "f"policy_rewards = {result['policy_reward_mean']['shared_policy']}")
-        #print(f"Iteration {i}: episode_reward_mean = {result['episode_reward_mean']}")
         print(f"({i}) Passed millis:", round(time.time() * 1000) - start)
         os.makedirs(checkpoint_path, exist_ok=True)
         algo.save_checkpoint(checkpoint_path)

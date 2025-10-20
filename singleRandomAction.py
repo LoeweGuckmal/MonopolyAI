@@ -45,7 +45,7 @@ class RLlibHandler(BaseHTTPRequestHandler):
                 #print(processed_obs[agent_key])
                 action_mask = agent_obs.get("action_mask", [0, 0, 0, 0, 0, 1, 1]+[0]*116)
                 valid_actions = [i for i, mask in enumerate(action_mask) if mask == 1]
-                action = random.choice(valid_actions)
+                action = random.choice(valid_actions) # randomly chooses a valid action
                 #print(action_mask, "->", action)
 
             response = json.dumps(str(action)).encode("utf-8")

@@ -42,7 +42,6 @@ class MonopolyEnv(MultiAgentEnv):
         server_url = config.get("server_url", "http://localhost:9990")
         self.timeout = config.get("timeout", 10.0)
 
-        # Store the server URL and timeout
         if server_url == "http://localhost:9990":
             # Use IP address instead of localhost for better compatibility
             IPAddr = socket.gethostbyname(socket.gethostname())
@@ -57,8 +56,8 @@ class MonopolyEnv(MultiAgentEnv):
         self._agent_ids = {"agent_1", "agent_2", "agent_3", "agent_4"}
 
 
-        # Actions could be: Buy property, don't buy, mortgage property, etc.
-        self.action_space = spaces.Discrete(123)  # Adjust the number as needed
+        # Actions
+        self.action_space = spaces.Discrete(123)
         
         # Observation space for self-play with 4 agents
         # Each agent has its own observation
@@ -84,17 +83,6 @@ class MonopolyEnv(MultiAgentEnv):
         })
 
         self.observation_space = agent_obs_space
-
-        """
-        # Full observation space for all agents
-        self.observation_space = spaces.Dict({
-            'agent_1': agent_obs_space,
-            'agent_2': agent_obs_space,
-            'agent_3': agent_obs_space,
-            'agent_4': agent_obs_space,
-            #'next_agent': spaces.Discrete(4)  # Which agent acts next (0-3)
-        })
-        """
         
         # Test connection to the server
         self._test_connection()
@@ -133,8 +121,7 @@ class MonopolyEnv(MultiAgentEnv):
             )
             response.raise_for_status()
             data = response.json()
-            
-            # Store the game ID for future requests
+
             self.game_id = data.get("game_id")
             self.current_step = 0
             
@@ -147,7 +134,6 @@ class MonopolyEnv(MultiAgentEnv):
             if not info == {}:
                 print("info: " + info)
             infos = {}
-            #info["current_agent"] = f"agent_{self.next_agent + 1}"
 
             return observations, infos
             
@@ -183,16 +169,13 @@ class MonopolyEnv(MultiAgentEnv):
             action = action_dict[current_agent]
 
 
-            start = round(time.time() * 1000)
             # Send the action to the server for the current agent
             response = requests.post(
                 f"{self.server_url}/step", 
                 json={"game_id": self.game_id, "action": int(action), "agent": self.next_agent + 1},  # Convert to 1-indexed for server
                 timeout=self.timeout
             )
-            #print("Passed millis: ", round(time.time() * 1000) - start)
 
-            #print("sending: ", "agent"+str(self.next_agent+1)+": ", str(int(action)))
             response.raise_for_status()
             data = response.json()
 
@@ -210,7 +193,6 @@ class MonopolyEnv(MultiAgentEnv):
 
             terminated = bool(data.get("terminated", False))
             truncated = bool(data.get("truncated", False))
-            #info["current_agent"] = f"agent_{self.next_agent + 1}"
             terminateds = {f"agent_{i+1}": terminated for i in range(4)}
             truncateds = {f"agent_{i+1}": truncated for i in range(4)}
             #Add __all__ keys as required by RLlib
@@ -241,9 +223,6 @@ class MonopolyEnv(MultiAgentEnv):
         """
         Render the environment.
         
-        For HTTP-based environments, rendering might be handled by the server.
-        We could potentially request a visualization from the server.
-        
         Args:
             mode: The rendering mode
             
@@ -259,9 +238,7 @@ class MonopolyEnv(MultiAgentEnv):
                     timeout=self.timeout
                 )
                 response.raise_for_status()
-                
-                # Here you could display the visualization, e.g., by opening a browser
-                # or showing an image depending on the server's response format
+
                 print("Game rendered on server")
                 
             except requests.exceptions.RequestException as e:
@@ -291,7 +268,6 @@ class MonopolyEnv(MultiAgentEnv):
         Returns:
             The processed observation for all agents
         """
-        # Initialize the processed observation dictionary
         processed_obs = {}
         
         # Process observations for each agent
@@ -326,10 +302,6 @@ class MonopolyEnv(MultiAgentEnv):
                     'obogp': np.array(agent_obs.get("obogp", [0] * 10), dtype=np.float32),
                     'trade_state': np.array(agent_obs.get("trade_state", [0] * 2), dtype=np.int8)
                 }
-        
-        # Add the next agent information
-        #processed_obs['next_agent'] = self.next_agent
-        #print("obs: ", processed_obs)
         
         return processed_obs
 

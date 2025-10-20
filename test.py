@@ -1,6 +1,7 @@
 import torch
 import time
 
+# this is a test to check if cuda is being used
 x = torch.randn(10000, 10000, device='cuda')
 start = time.time()
 for _ in range(100):

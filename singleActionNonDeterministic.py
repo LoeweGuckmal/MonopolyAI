@@ -151,7 +151,7 @@ class RLlibHandler(BaseHTTPRequestHandler):
                     'trade_state': np.array(agent_obs.get("trade_state", [0] * 2), dtype=np.int8)
                 }
                 #print(processed_obs[agent_key])
-                action = algo.compute_single_action(processed_obs[agent_key], policy_id="default_policy", explore=True)
+                action = algo.compute_single_action(processed_obs[agent_key], policy_id="default_policy", explore=True) # changed "explore" to True: makes it non-deterministic
                 action_mask = agent_obs.get("action_mask", [0, 0, 0, 0, 0, 1, 1]+[0]*116)
                 #print(action_mask, "->", action)
 

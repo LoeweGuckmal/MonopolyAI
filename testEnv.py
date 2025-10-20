@@ -1,5 +1,6 @@
 from monopolyEnv import MonopolyEnv
 
+# test if the env works
 env = MonopolyEnv()
 obs, info = env.reset()
 for i in range(1000):

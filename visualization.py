@@ -6,6 +6,9 @@ import torch
 from gym import spaces
 from gym.spaces import Box
 from ray.rllib.models.torch.fcnet import FullyConnectedNetwork
+'''
+    This file visualizes the neural network from trained AIs
+'''
 
 # Try importing torchviz but don't fail if it's not available
 try:
@@ -36,18 +39,6 @@ agent_obs_space = spaces.Dict({
 })
 action_space = spaces.Discrete(123)
 
-def flatten_obs_space(obs_space: spaces.Dict):
-    total_dim = 0
-    shapes = {}
-    for key, space in obs_space.spaces.items():
-        shape = space.shape if isinstance(space, Box) else (1,)
-        shapes[key] = shape
-        dim = int(np.prod(shape))
-        total_dim += dim
-        print(f"Space {key}: {shape}, flattened: {dim}")
-    flat_space = Box(low=-np.inf, high=np.inf, shape=(total_dim,), dtype=np.float32)
-    print(f"Total flattened dimension: {total_dim}")
-    return flat_space, shapes
 
 def flatten_obs(obs_dict, obs_space):
     flat_list = []
