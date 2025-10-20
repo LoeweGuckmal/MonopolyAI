@@ -1,0 +1,64 @@
+digraph {
+	graph [size="12,12"]
+	node [align=left fontname=monospace fontsize=10 height=0.2 ranksep=0.1 shape=box style=filled]
+	1617901556240 [label="
+ (1, 123)" fillcolor=darkolivegreen1]
+	1619096581744 [label=AddBackward0]
+	1619096582080 -> 1619096581744
+	1619096582080 [label=AddmmBackward0]
+	1619096581840 -> 1619096582080
+	1619096730928 [label="_logits._model.0.bias
+ (123)" fillcolor=lightblue]
+	1619096730928 -> 1619096581840
+	1619096581840 [label=AccumulateGrad]
+	1619096582128 -> 1619096582080
+	1619096582128 [label=AddmmBackward0]
+	1619096581936 -> 1619096582128
+	1619096730688 [label="_hidden_layers.2._model.0.bias
+ (128)" fillcolor=lightblue]
+	1619096730688 -> 1619096581936
+	1619096581936 [label=AccumulateGrad]
+	1619096582416 -> 1619096582128
+	1619096582416 [label=AddmmBackward0]
+	1619096582272 -> 1619096582416
+	1619096730768 [label="_hidden_layers.1._model.0.bias
+ (256)" fillcolor=lightblue]
+	1619096730768 -> 1619096582272
+	1619096582272 [label=AccumulateGrad]
+	1619096582224 -> 1619096582416
+	1619096582224 [label=AddmmBackward0]
+	1619096582512 -> 1619096582224
+	1619096730608 [label="_hidden_layers.0._model.0.bias
+ (256)" fillcolor=lightblue]
+	1619096730608 -> 1619096582512
+	1619096582512 [label=AccumulateGrad]
+	1619096582560 -> 1619096582224
+	1619096582560 [label=TBackward0]
+	1619096582656 -> 1619096582560
+	1619096730448 [label="_hidden_layers.0._model.0.weight
+ (256, 404)" fillcolor=lightblue]
+	1619096730448 -> 1619096582656
+	1619096582656 [label=AccumulateGrad]
+	1619096582176 -> 1619096582416
+	1619096582176 [label=TBackward0]
+	1619096582848 -> 1619096582176
+	1619096715568 [label="_hidden_layers.1._model.0.weight
+ (256, 256)" fillcolor=lightblue]
+	1619096715568 -> 1619096582848
+	1619096582848 [label=AccumulateGrad]
+	1619096582368 -> 1619096582128
+	1619096582368 [label=TBackward0]
+	1619096582752 -> 1619096582368
+	1619096730848 [label="_hidden_layers.2._model.0.weight
+ (128, 256)" fillcolor=lightblue]
+	1619096730848 -> 1619096582752
+	1619096582752 [label=AccumulateGrad]
+	1619096582032 -> 1619096582080
+	1619096582032 [label=TBackward0]
+	1619096582608 -> 1619096582032
+	1619096731008 [label="_logits._model.0.weight
+ (123, 128)" fillcolor=lightblue]
+	1619096731008 -> 1619096582608
+	1619096582608 [label=AccumulateGrad]
+	1619096581744 -> 1617901556240
+}

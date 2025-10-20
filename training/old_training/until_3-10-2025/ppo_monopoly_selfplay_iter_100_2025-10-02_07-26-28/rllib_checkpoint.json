@@ -1,0 +1,1 @@
+{"type": "Algorithm", "checkpoint_version": "1.1", "format": "cloudpickle", "state_file": "training\\ppo_monopoly_selfplay_iter_100_2025-10-02_07-26-28\\algorithm_state.pkl", "policy_ids": ["default_policy"], "ray_version": "2.49.2", "ray_commit": "479fa716904109d9df4b56b98ca3c3350e1ec13c"}

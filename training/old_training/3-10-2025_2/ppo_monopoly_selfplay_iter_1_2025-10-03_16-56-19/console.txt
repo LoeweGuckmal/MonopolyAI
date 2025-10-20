@@ -1,0 +1,1141 @@
+C:\Users\Simon\.jdks\openjdk-21.0.2\bin\java.exe -Xms10G -Xmx16G -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -jar C:\Users\Simon\Documents\Dokumente\Minecraft\plugin\MonopolyServer\Monopoly_Server_Paper_Offline\paper.jar --nogui
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build from https://papermc.io/downloads/paper ***
+2025-10-03T14:42:48.561649100Z ServerMain WARN Advanced terminal features are not available in this environment
+[16:42:48 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.2+13-58; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[16:42:48 INFO]: [bootstrap] Loading Paper 1.21.4-185-main@0a6e743 (2025-02-26T13:10:43Z) for Minecraft 1.21.4
+[16:42:49 INFO]: [PluginInitializerManager] Initializing plugins...
+[16:42:49 INFO]: [PluginRemapper] Remapping plugin 'plugins\Monopoly-1.5.8-SNAPSHOT.jar'...
+[16:42:49 INFO]: [PluginRemapper] Done remapping plugin 'plugins\Monopoly-1.5.8-SNAPSHOT.jar' in 342ms.
+[16:42:50 INFO]: [FileProviderSource] The spark plugin will not be loaded as this server bundles the spark profiler.
+[16:42:50 INFO]: [PluginInitializerManager] Initialized 2 plugins
+[16:42:50 INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - Monopoly (1.5.8-SNAPSHOT), WorldEdit (7.3.10+7004-768a436)
+[16:42:53 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:42:53 INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[16:42:53 INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 284.8ms
+[16:42:55 INFO]: Loaded 1370 recipes
+[16:42:55 INFO]: Loaded 1481 advancements
+[16:42:55 INFO]: Starting minecraft server version 1.21.4
+[16:42:55 INFO]: Loading properties
+[16:42:55 INFO]: This server is running Paper version 1.21.4-185-main@0a6e743 (2025-02-26T13:10:43Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[16:42:55 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:42:55 INFO]: Using 4 threads for Netty based IO
+[16:42:55 INFO]: Server Ping Player Sample Count: 12
+[16:42:55 ERROR]: [Configurations] Loading a newer configuration than is supported (30 > 29)! You may have to backup & delete your global config file to start the server.
+[16:42:55 INFO]: [MoonriseCommon] Paper is using 6 worker threads, 1 I/O threads
+[16:42:55 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[16:42:55 INFO]: Default game type: CREATIVE
+[16:42:55 INFO]: Generating keypair
+[16:42:55 INFO]: Starting Minecraft server on 127.0.0.1:30068
+[16:42:55 INFO]: Using default channel type
+[16:42:55 INFO]: Paper: Using Java compression from Velocity.
+[16:42:55 INFO]: Paper: Using Java cipher from Velocity.
+[16:42:56 INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
+[16:42:56 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@55dea5fc]
+[16:42:56 INFO]: [Monopoly] Loading server plugin Monopoly v1.5.8-SNAPSHOT
+[16:42:56 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:42:56 INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
+[16:42:56 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:42:56 INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:42:57 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[16:42:57 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:42:57 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:42:57 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:42:57 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:42:57 INFO]: Preparing level "world"
+[16:42:57 INFO]: -------- World Settings For [world] --------
+[16:42:57 INFO]: View Distance: 10
+[16:42:57 INFO]: Simulation Distance: 10
+[16:42:57 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:42:57 INFO]: Zombie Aggressive Towards Villager: true
+[16:42:57 INFO]: Experience Merge Radius: 3.0
+[16:42:57 INFO]: Item Merge Radius: 2.5
+[16:42:57 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[16:42:57 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[16:42:57 INFO]: Max TNT Explosions: 100
+[16:42:57 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[16:42:57 INFO]: Cactus Growth Modifier: 100%
+[16:42:57 INFO]: Cane Growth Modifier: 100%
+[16:42:57 INFO]: Melon Growth Modifier: 100%
+[16:42:57 INFO]: Mushroom Growth Modifier: 100%
+[16:42:57 INFO]: Pumpkin Growth Modifier: 100%
+[16:42:57 INFO]: Sapling Growth Modifier: 100%
+[16:42:57 INFO]: Beetroot Growth Modifier: 100%
+[16:42:57 INFO]: Carrot Growth Modifier: 100%
+[16:42:57 INFO]: Potato Growth Modifier: 100%
+[16:42:57 INFO]: TorchFlower Growth Modifier: 100%
+[16:42:57 INFO]: Wheat Growth Modifier: 100%
+[16:42:57 INFO]: NetherWart Growth Modifier: 100%
+[16:42:57 INFO]: Vine Growth Modifier: 100%
+[16:42:57 INFO]: Cocoa Growth Modifier: 100%
+[16:42:57 INFO]: Bamboo Growth Modifier: 100%
+[16:42:57 INFO]: SweetBerry Growth Modifier: 100%
+[16:42:57 INFO]: Kelp Growth Modifier: 100%
+[16:42:57 INFO]: TwistingVines Growth Modifier: 100%
+[16:42:57 INFO]: WeepingVines Growth Modifier: 100%
+[16:42:57 INFO]: CaveVines Growth Modifier: 100%
+[16:42:57 INFO]: GlowBerry Growth Modifier: 100%
+[16:42:57 INFO]: PitcherPlant Growth Modifier: 100%
+[16:42:57 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[16:42:57 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:42:57 INFO]: Mob Spawn Range: 6
+[16:42:57 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[16:42:57 INFO]: Item Despawn Rate: 6000
+[16:42:57 INFO]: Nerfing mobs spawned from spawners: false
+[16:42:58 INFO]: Preparing start region for dimension minecraft:overworld
+[16:42:58 INFO]: Preparing spawn area: 0%
+[16:42:59 INFO]: Preparing spawn area: 2%
+[16:42:59 INFO]: Time elapsed: 567 ms
+[16:42:59 INFO]: [Monopoly] Enabling Monopoly v1.5.8-SNAPSHOT
+[16:42:59 INFO]: [Monopoly] Sign from Monopoly, enabling Monopoly on version: 1.5.8-SNAPSHOT
+[16:42:59 INFO]: [Monopoly] started RestartServer at: /192.168.1.168:9990
+[16:42:59 INFO]: [spark] Starting background profiler...
+[16:42:59 INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[16:42:59 INFO]: Done preparing level "world" (1.833s)
+[16:42:59 INFO]: Running delayed init tasks
+[16:42:59 INFO]: Done (11.630s)! For help, type "help"
+[16:43:00 INFO]: UUID of player AI1 is 6c78247f-5129-349c-9736-f039d9729d81
+[16:43:00 INFO]: UUID of player AI2 is 5b5ff32d-3766-3115-888f-66e1e9c80a01
+[16:43:00 INFO]: UUID of player AI3 is a5166c0e-92ca-3e41-a30d-5c8f5395a783
+[16:43:00 INFO]: UUID of player AI4 is 13f0c066-2e0f-38e0-b1a7-bc525bd95be1
+[16:43:00 INFO]: [Monopoly] Player has played before
+[16:43:00 INFO]: AI1 joined the Game
+[16:43:00 INFO]: AI1[/127.0.0.1:50897] logged in with entity id 110 at ([world]1019.5, 10.9375, 54.5)
+[16:43:00 INFO]: [Monopoly] Player has played before
+[16:43:00 INFO]: AI2 joined the Game
+[16:43:00 INFO]: AI2[/127.0.0.1:50899] logged in with entity id 111 at ([world]983.5, 10.9375, -67.5)
+[16:43:00 INFO]: [Monopoly] Player has played before
+[16:43:00 INFO]: AI4 joined the Game
+[16:43:00 INFO]: AI4[/127.0.0.1:50903] logged in with entity id 112 at ([world]1056.5, 11.0, -6.5)
+[16:43:00 INFO]: [Monopoly] Player has played before
+[16:43:00 INFO]: AI3 joined the Game
+[16:43:00 INFO]: AI3[/127.0.0.1:50901] logged in with entity id 113 at ([world]1056.5, 10.9375, -54.5)
+Prismarine viewer web server running on *:3007
+Prismarine viewer web server running on *:3008
+Prismarine viewer web server running on *:3010
+Prismarine viewer web server running on *:3009
+[16:43:23 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[16:43:29 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+s[16:43:35 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+tog
+[16:43:38 INFO]:
+stopped the game
+
+
+
+[16:43:57 INFO]: [Monopoly] reset
+[16:43:57 INFO]: [Monopoly] AI started now
+[16:44:22 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2197.0, 1471
+	2: AI2 (2): 1636.0, 1340
+	3: AI4 (3): 1591.0, 1384
+	4: AI3 (4): 1264.0, -288
+	bNwC: 400, reward value: 1.5
+[16:44:22 INFO]: [Monopoly] Game 1 finished, ActionCount: 490 (/490), 24.483s (1game)
+[16:44:22 INFO]: [Monopoly] reset
+[16:44:22 INFO]: [Monopoly] AI started now
+[16:45:03 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2685.0, 2473
+	2: AI2 (2): 1821.0, 1830
+	3: AI1 (1): 1657.0, -34
+	4: AI3 (4): 1602.0, 410
+	bNwC: 334, reward value: 1.5
+[16:45:03 INFO]: [Monopoly] Game 2 finished, ActionCount: 827 (/1317), 41.344s (1game)
+[16:45:03 INFO]: [Monopoly] reset
+[16:45:03 INFO]: [Monopoly] AI started now
+[16:45:41 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 3598.0, 2575
+	2: AI4 (3): 2976.0, 2316
+	3: AI1 (1): 1638.0, -250
+	4: AI3 (4): 1421.0, 675
+	bNwC: 406, reward value: 1.5
+[16:45:41 INFO]: [Monopoly] Game 3 finished, ActionCount: 748 (/2065), 37.395s (1game)
+[16:45:41 INFO]: [Monopoly] reset
+[16:45:41 INFO]: [Monopoly] AI started now
+[16:52:48 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 11414.5, 11028
+	2: AI4 (3): 4607.5, 3780
+	3: AI2 (2): 4165.5, 3243
+	4: AI1 (1): 4023.0, 3454
+	bNwC: 400, reward value: 1.5
+[16:52:48 INFO]: [Monopoly] Game 4 finished, ActionCount: 8554 (/10619), 427.704s (1game)
+[16:52:49 INFO]: [Monopoly] reset
+[16:52:49 INFO]: [Monopoly] AI started now
+[16:55:43 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3526.0, 2432
+	2: AI4 (3): 3155.0, 2747
+	3: AI3 (4): 1213.0, 809
+	4: AI2 (2): 914.0, -81
+	bNwC: 400, reward value: 1.5
+[16:55:43 INFO]: [Monopoly] Game 5 finished, ActionCount: 3487 (/14106), 174.288s (1game)
+[16:55:43 INFO]: [Monopoly] reset
+[16:55:43 INFO]: [Monopoly] AI started now
+[16:55:53 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[16:55:59 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[16:56:05 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[16:56:11 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[16:56:17 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[16:57:11 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2705.0, 1912
+	2: AI2 (2): 2233.0, 1893
+	3: AI1 (1): 1394.0, -19
+	4: AI4 (3): 1193.0, 424
+	bNwC: 330, reward value: 1.5
+[16:57:11 INFO]: [Monopoly] Game 6 finished, ActionCount: 1032 (/15138), 87.148s (1game)
+[16:57:11 INFO]: [Monopoly] reset
+[16:57:11 INFO]: [Monopoly] AI started now
+[16:58:03 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2390.0, 958
+	2: AI3 (4): 1562.0, 848
+	3: AI2 (2): 617.0, 439
+	4: AI4 (3): 425.5, -222
+	bNwC: 422, reward value: 1.5
+[16:58:03 INFO]: [Monopoly] Game 7 finished, ActionCount: 1050 (/16188), 52.449s (1game)
+[16:58:03 INFO]: [Monopoly] reset
+[16:58:03 INFO]: [Monopoly] AI started now
+[16:58:29 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2259.0, 2006
+	2: AI1 (1): 2004.0, 1509
+	3: AI2 (2): 1667.0, 1299
+	4: AI4 (3): 1002.5, -224
+	bNwC: 430, reward value: 1.5
+[16:58:29 INFO]: [Monopoly] Game 8 finished, ActionCount: 524 (/16712), 26.183s (1game)
+[16:58:29 INFO]: [Monopoly] reset
+[16:58:29 INFO]: [Monopoly] AI started now
+[16:58:54 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2048.0, 2048
+	2: AI2 (2): 1677.0, 620
+	3: AI4 (3): 1661.0, -114
+	4: AI1 (1): 1533.0, 1386
+	bNwC: 312, reward value: 1.5
+[16:58:54 INFO]: [Monopoly] Game 9 finished, ActionCount: 499 (/17211), 24.946s (1game)
+[16:58:54 INFO]: [Monopoly] reset
+[16:58:54 INFO]: [Monopoly] AI started now
+[16:59:41 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2574.0, 2152
+	2: AI4 (3): 2322.0, 1423
+	3: AI3 (4): 1336.5, 345
+	4: AI2 (2): 902.0, -27
+	bNwC: 420, reward value: 1.5
+[16:59:41 INFO]: [Monopoly] Game 10 finished, ActionCount: 938 (/18149), 46.897s (1game)
+[16:59:41 INFO]: [Monopoly] reset
+[16:59:41 INFO]: [Monopoly] AI started now
+[17:00:47 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 3248.0, 1911
+	2: AI2 (2): 2440.5, 1926
+	3: AI4 (3): 2095.5, 1185
+	4: AI1 (1): 1380.0, -185
+	bNwC: 400, reward value: 1.5
+[17:00:47 INFO]: [Monopoly] Game 11 finished, ActionCount: 1315 (/19464), 65.747s (1game)
+[17:00:47 INFO]: [Monopoly] reset
+[17:00:47 INFO]: [Monopoly] AI started now
+[17:01:51 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2339.5, 1765
+	2: AI1 (1): 2082.0, 1815
+	3: AI3 (4): 1288.0, 693
+	4: AI2 (2): 922.0, -71
+	bNwC: 460, reward value: 1.5
+[17:01:51 INFO]: [Monopoly] Game 12 finished, ActionCount: 1274 (/20738), 63.697s (1game)
+[17:01:51 INFO]: [Monopoly] reset
+[17:01:51 INFO]: [Monopoly] AI started now
+[17:02:11 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2176.0, 1340
+	2: AI1 (1): 1867.0, 1553
+	3: AI2 (2): 1037.0, -273
+	4: AI3 (4): 738.0, 54
+	bNwC: 410, reward value: 1.5
+[17:02:11 INFO]: [Monopoly] Game 13 finished, ActionCount: 393 (/21131), 19.651s (1game)
+[17:02:11 INFO]: [Monopoly] reset
+[17:02:11 INFO]: [Monopoly] AI started now
+[17:03:15 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 3133.0, 2443
+	2: AI2 (2): 2815.0, 1509
+	3: AI1 (1): 2809.0, 1767
+	4: AI4 (3): 1086.0, -65
+	bNwC: 540, reward value: 1.62
+[17:03:15 INFO]: [Monopoly] Game 14 finished, ActionCount: 1293 (/22424), 64.587s (1game)
+[17:03:16 INFO]: [Monopoly] reset
+[17:03:16 INFO]: [Monopoly] AI started now
+[17:04:06 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 3203.0, 2761
+	2: AI2 (2): 2091.0, 1607
+	3: AI4 (3): 2033.0, 987
+	4: AI1 (1): 1709.0, -140
+	bNwC: 425, reward value: 1.5
+[17:04:06 INFO]: [Monopoly] Game 15 finished, ActionCount: 1014 (/23438), 50.687s (1game)
+[17:04:06 INFO]: [Monopoly] reset
+[17:04:06 INFO]: [Monopoly] AI started now
+[17:04:33 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 1965.0, 1510
+	2: AI1 (1): 1947.0, 1243
+	3: AI2 (2): 1279.0, 650
+	4: AI4 (3): 1218.0, -300
+	bNwC: 300, reward value: 1.5
+[17:04:33 INFO]: [Monopoly] Game 16 finished, ActionCount: 531 (/23969), 26.539s (1game)
+[17:04:33 INFO]: [Monopoly] reset
+[17:04:33 INFO]: [Monopoly] AI started now
+[17:05:20 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2716.0, 1944
+	2: AI2 (2): 1855.5, 1079
+	3: AI3 (4): 1538.0, -31
+	4: AI4 (3): 1345.0, 1232
+	bNwC: 360, reward value: 1.5
+[17:05:20 INFO]: [Monopoly] Game 17 finished, ActionCount: 934 (/24903), 46.696s (1game)
+[17:05:20 INFO]: [Monopoly] reset
+[17:05:20 INFO]: [Monopoly] AI started now
+[17:06:21 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3390.0, 2337
+	2: AI4 (3): 1530.5, 984
+	3: AI2 (2): 1255.5, -157
+	4: AI3 (4): 853.0, 113
+	bNwC: 400, reward value: 1.5
+[17:06:21 INFO]: [Monopoly] Game 18 finished, ActionCount: 1227 (/26130), 61.346s (1game)
+[17:06:21 INFO]: [Monopoly] reset
+[17:06:21 INFO]: [Monopoly] AI started now
+[17:06:29 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:06:35 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:06:41 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:06:47 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:08:04 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2151.0, 1930
+	2: AI1 (1): 1968.0, 1828
+	3: AI4 (3): 1183.0, 388
+	4: AI3 (4): 1134.5, -182
+	bNwC: 446, reward value: 1.5
+[17:08:04 INFO]: [Monopoly] Game 19 finished, ActionCount: 1432 (/27562), 102.796s (1game)
+[17:08:04 INFO]: [Monopoly] reset
+[17:08:04 INFO]: [Monopoly] AI started now
+[17:09:29 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2558.0, 2040
+	2: AI3 (4): 1997.5, 1812
+	3: AI2 (2): 1201.0, 578
+	4: AI4 (3): 1147.0, -25
+	bNwC: 410, reward value: 1.5
+[17:09:29 INFO]: [Monopoly] Game 20 finished, ActionCount: 1697 (/29259), 84.848s (1game)
+[17:09:29 INFO]: [Monopoly] reset
+[17:09:29 INFO]: [Monopoly] AI started now
+[17:11:04 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 4805.0, 3492
+	2: AI2 (2): 4245.0, 3594
+	3: AI3 (4): 1788.0, 1295
+	4: AI1 (1): 627.0, -24
+	bNwC: 332, reward value: 1.5
+[17:11:04 INFO]: [Monopoly] Game 21 finished, ActionCount: 1891 (/31150), 94.556s (1game)
+[17:11:04 INFO]: [Monopoly] reset
+[17:11:04 INFO]: [Monopoly] AI started now
+[17:12:29 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3020.0, 1946
+	2: AI4 (3): 1887.0, 702
+	3: AI2 (2): 1671.0, 932
+	4: AI3 (4): 668.5, -120
+	bNwC: 422, reward value: 1.5
+[17:12:29 INFO]: [Monopoly] Game 22 finished, ActionCount: 1700 (/32850), 85.003s (1game)
+[17:12:29 INFO]: [Monopoly] reset
+[17:12:29 INFO]: [Monopoly] AI started now
+[17:13:53 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2895.5, 2306
+	2: AI1 (1): 2341.0, 2020
+	3: AI3 (4): 1157.0, -81
+	4: AI4 (3): 1116.0, 187
+	bNwC: 600, reward value: 1.8
+[17:13:53 INFO]: [Monopoly] Game 23 finished, ActionCount: 1684 (/34534), 84.249s (1game)
+[17:13:53 INFO]: [Monopoly] reset
+[17:13:53 INFO]: [Monopoly] AI started now
+[17:14:50 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2810.0, 1669
+	2: AI2 (2): 1956.0, 1436
+	3: AI3 (4): 1247.0, 268
+	4: AI1 (1): 752.5, -49
+	bNwC: 600, reward value: 1.8
+[17:14:50 INFO]: [Monopoly] Game 24 finished, ActionCount: 1124 (/35658), 56.203s (1game)
+[17:14:50 INFO]: [Monopoly] reset
+[17:14:50 INFO]: [Monopoly] AI started now
+[17:18:25 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 5329.0, 4643
+	2: AI2 (2): 3152.0, 1533
+	3: AI3 (4): 1650.0, 1536
+	4: AI1 (1): 797.5, -41
+	bNwC: 480, reward value: 1.5
+[17:18:25 INFO]: [Monopoly] Game 25 finished, ActionCount: 4306 (/39964), 215.303s (1game)
+[17:18:25 INFO]: [Monopoly] reset
+[17:18:25 INFO]: [Monopoly] AI started now
+[17:18:35 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:18:41 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:18:47 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:18:53 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:18:59 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:19:58 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2735.0, 2180
+	2: AI2 (2): 1721.5, 927
+	3: AI4 (3): 1283.0, 1306
+	4: AI1 (1): 1141.5, -55
+	bNwC: 532, reward value: 1.596
+[17:19:58 INFO]: [Monopoly] Game 26 finished, ActionCount: 1150 (/41114), 93.297s (1game)
+[17:19:59 INFO]: [Monopoly] reset
+[17:19:59 INFO]: [Monopoly] AI started now
+[17:24:51 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 5844.0, 5681
+	2: AI2 (2): 2319.5, 1648
+	3: AI4 (3): 2110.0, 1478
+	4: AI1 (1): 2068.0, -19
+	bNwC: 574, reward value: 1.722
+[17:24:51 INFO]: [Monopoly] Game 27 finished, ActionCount: 5849 (/46963), 292.398s (1game)
+[17:24:51 INFO]: [Monopoly] reset
+[17:24:51 INFO]: [Monopoly] AI started now
+[17:25:47 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 3271.0, 2531
+	2: AI1 (1): 2553.0, 2428
+	3: AI4 (3): 1848.0, 1242
+	4: AI2 (2): 1107.0, -47
+	bNwC: 400, reward value: 1.5
+[17:25:47 INFO]: [Monopoly] Game 28 finished, ActionCount: 1110 (/48073), 55.51s (1game)
+[17:25:47 INFO]: [Monopoly] reset
+[17:25:47 INFO]: [Monopoly] AI started now
+[17:26:52 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 1719.0, -56
+	2: AI1 (1): 1568.0, 949
+	3: AI3 (4): 1368.0, 554
+	4: AI2 (2): 1259.0, 1037
+	bNwC: 620, reward value: 1.86
+[17:26:53 INFO]: [Monopoly] Game 29 finished, ActionCount: 1311 (/49384), 65.554s (1game)
+[17:26:53 INFO]: [Monopoly] reset
+[17:26:53 INFO]: [Monopoly] AI started now
+[17:28:10 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2715.0, 1786
+	2: AI2 (2): 1954.0, 1834
+	3: AI4 (3): 1871.5, -13
+	4: AI1 (1): 1545.0, 427
+	bNwC: 360, reward value: 1.5
+[17:28:10 INFO]: [Monopoly] Game 30 finished, ActionCount: 1539 (/50923), 77.146s (1game)
+[17:28:10 INFO]: [Monopoly] reset
+[17:28:10 INFO]: [Monopoly] AI started now
+[17:29:12 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3348.0, 1872
+	2: AI3 (4): 3180.5, 2609
+	3: AI2 (2): 2115.0, 1783
+	4: AI4 (3): 1247.0, -114
+	bNwC: 488, reward value: 1.5
+[17:29:12 INFO]: [Monopoly] Game 31 finished, ActionCount: 1240 (/52163), 61.99s (1game)
+[17:29:12 INFO]: [Monopoly] reset
+[17:29:12 INFO]: [Monopoly] AI started now
+[17:29:20 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:29:26 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:29:32 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:29:38 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:30:37 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2260.0, 1982
+	2: AI3 (4): 2002.0, 1634
+	3: AI4 (3): 1931.0, 474
+	4: AI2 (2): 1161.0, -58
+	bNwC: 336, reward value: 1.5
+[17:30:37 INFO]: [Monopoly] Game 32 finished, ActionCount: 1077 (/53240), 85.203s (1game)
+[17:30:37 INFO]: [Monopoly] reset
+[17:30:37 INFO]: [Monopoly] AI started now
+[17:32:04 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3731.0, 3066
+	2: AI3 (4): 1882.0, 976
+	3: AI2 (2): 1808.0, 646
+	4: AI4 (3): 1295.5, -11
+	bNwC: 410, reward value: 1.5
+[17:32:04 INFO]: [Monopoly] Game 33 finished, ActionCount: 1729 (/54969), 86.509s (1game)
+[17:32:04 INFO]: [Monopoly] reset
+[17:32:04 INFO]: [Monopoly] AI started now
+[17:32:52 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2183.0, 1891
+	2: AI4 (3): 1591.0, -4
+	3: AI1 (1): 1499.0, 817
+	4: AI2 (2): 1396.5, 1246
+	bNwC: 400, reward value: 1.5
+[17:32:52 INFO]: [Monopoly] Game 34 finished, ActionCount: 951 (/55920), 47.562s (1game)
+[17:32:52 INFO]: [Monopoly] reset
+[17:32:52 INFO]: [Monopoly] AI started now
+[17:35:00 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3345.5, 2705
+	2: AI4 (3): 1322.0, 640
+	3: AI3 (4): 1322.0, 845
+	4: AI2 (2): 523.0, -38
+	bNwC: 466, reward value: 1.5
+[17:35:00 INFO]: [Monopoly] Game 35 finished, ActionCount: 2567 (/58487), 128.379s (1game)
+[17:35:00 INFO]: [Monopoly] reset
+[17:35:00 INFO]: [Monopoly] AI started now
+[17:35:41 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 3120.0, 2208
+	2: AI4 (3): 2154.0, 1863
+	3: AI1 (1): 2044.0, -300
+	4: AI3 (4): 838.0, 651
+	bNwC: 430, reward value: 1.5
+[17:35:41 INFO]: [Monopoly] Game 36 finished, ActionCount: 826 (/59313), 41.304s (1game)
+[17:35:42 INFO]: [Monopoly] reset
+[17:35:42 INFO]: [Monopoly] AI started now
+[17:36:57 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2387.0, 1849
+	2: AI2 (2): 1849.0, 862
+	3: AI3 (4): 1542.0, -31
+	4: AI1 (1): 1389.0, 137
+	bNwC: 410, reward value: 1.5
+[17:36:57 INFO]: [Monopoly] Game 37 finished, ActionCount: 1512 (/60825), 75.609s (1game)
+[17:36:57 INFO]: [Monopoly] reset
+[17:36:57 INFO]: [Monopoly] AI started now
+[17:37:58 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3002.0, 1952
+	2: AI2 (2): 2550.5, 1447
+	3: AI4 (3): 1084.0, 375
+	4: AI3 (4): 956.0, -106
+	bNwC: 410, reward value: 1.5
+[17:37:58 INFO]: [Monopoly] Game 38 finished, ActionCount: 1212 (/62037), 60.604s (1game)
+[17:37:58 INFO]: [Monopoly] reset
+[17:37:58 INFO]: [Monopoly] AI started now
+[17:40:06 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 4769.0, 4179
+	2: AI4 (3): 4071.0, 3145
+	3: AI3 (4): 2031.0, 552
+	4: AI1 (1): 972.0, -299
+	bNwC: 365, reward value: 1.5
+[17:40:06 INFO]: [Monopoly] Game 39 finished, ActionCount: 2557 (/64594), 127.862s (1game)
+[17:40:06 INFO]: [Monopoly] reset
+[17:40:06 INFO]: [Monopoly] AI started now
+[17:40:14 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:40:20 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:40:26 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:40:32 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:41:20 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2956.0, 1441
+	2: AI4 (3): 2496.0, 1776
+	3: AI3 (4): 1371.0, 931
+	4: AI1 (1): 722.0, -25
+	bNwC: 300, reward value: 1.5
+[17:41:20 INFO]: [Monopoly] Game 40 finished, ActionCount: 878 (/65472), 74.409s (1game)
+[17:41:20 INFO]: [Monopoly] reset
+[17:41:21 INFO]: [Monopoly] AI started now
+[17:42:27 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2613.5, 549
+	2: AI1 (1): 2288.0, 2296
+	3: AI4 (3): 1578.0, -141
+	4: AI2 (2): 606.0000000000001, 114
+	bNwC: 485, reward value: 1.5
+[17:42:27 INFO]: [Monopoly] Game 41 finished, ActionCount: 1337 (/66809), 66.856s (1game)
+[17:42:27 INFO]: [Monopoly] reset
+[17:42:27 INFO]: [Monopoly] AI started now
+[17:43:16 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 3169.0, 1614
+	2: AI2 (2): 2767.0, 2148
+	3: AI1 (1): 2512.5, 1912
+	4: AI3 (4): 820.0, -54
+	bNwC: 312, reward value: 1.5
+[17:43:16 INFO]: [Monopoly] Game 42 finished, ActionCount: 968 (/67777), 48.404s (1game)
+[17:43:16 INFO]: [Monopoly] reset
+[17:43:16 INFO]: [Monopoly] AI started now
+[17:43:42 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2997.0, 2140
+	2: AI3 (4): 2155.0, 1984
+	3: AI4 (3): 1915.0, 1530
+	4: AI1 (1): 1668.0, -26
+	bNwC: 400, reward value: 1.5
+[17:43:42 INFO]: [Monopoly] Game 43 finished, ActionCount: 513 (/68290), 25.697s (1game)
+[17:43:42 INFO]: [Monopoly] reset
+[17:43:42 INFO]: [Monopoly] AI started now
+[17:53:18 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 11838.0, 11018
+	2: AI4 (3): 11481.5, 10713
+	3: AI3 (4): 4755.0, 4218
+	4: AI2 (2): 3312.0, 2617
+	bNwC: 450, reward value: 1.5
+[17:53:18 INFO]: [Monopoly] Game 44 finished, ActionCount: 11530 (/79820), 576.489s (1game)
+[17:53:19 INFO]: [Monopoly] reset
+[17:53:19 INFO]: [Monopoly] AI started now
+[17:53:26 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:53:32 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:53:38 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:53:44 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:53:50 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:53:56 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[17:55:08 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2841.0, 2262
+	2: AI3 (4): 2696.0, 1955
+	3: AI4 (3): 2475.0, 1739
+	4: AI1 (1): 1547.5, -68
+	bNwC: 400, reward value: 1.5
+[17:55:08 INFO]: [Monopoly] Game 45 finished, ActionCount: 1355 (/81175), 109.208s (1game)
+[17:55:08 INFO]: [Monopoly] reset
+[17:55:08 INFO]: [Monopoly] AI started now
+[17:55:54 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2216.0, 2022
+	2: AI1 (1): 2007.0, 1785
+	3: AI4 (3): 1823.5, -200
+	4: AI3 (4): 1191.0, 169
+	bNwC: 410, reward value: 1.5
+[17:55:54 INFO]: [Monopoly] Game 46 finished, ActionCount: 912 (/82087), 45.612s (1game)
+[17:55:54 INFO]: [Monopoly] reset
+[17:55:54 INFO]: [Monopoly] AI started now
+[17:56:17 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2344.5, 1369
+	2: AI3 (4): 2282.5, 1758
+	3: AI2 (2): 1751.0, 1771
+	4: AI4 (3): 1533.5000000000002, -71
+	bNwC: 500, reward value: 1.5
+[17:56:17 INFO]: [Monopoly] Game 47 finished, ActionCount: 473 (/82560), 23.66s (1game)
+[17:56:18 INFO]: [Monopoly] reset
+[17:56:18 INFO]: [Monopoly] AI started now
+[17:56:35 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2903.0, 2249
+	2: AI2 (2): 1821.0, 802
+	3: AI3 (4): 1415.0, 1119
+	4: AI1 (1): 927.0, -58
+	bNwC: 354, reward value: 1.5
+[17:56:35 INFO]: [Monopoly] Game 48 finished, ActionCount: 353 (/82913), 17.648s (1game)
+[17:56:35 INFO]: [Monopoly] reset
+[17:56:35 INFO]: [Monopoly] AI started now
+[17:57:05 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2338.0, 1777
+	2: AI3 (4): 1646.5, 873
+	3: AI2 (2): 1598.0, 1415
+	4: AI1 (1): 1587.0, -57
+	bNwC: 272, reward value: 1.5
+[17:57:05 INFO]: [Monopoly] Game 49 finished, ActionCount: 598 (/83511), 29.904s (1game)
+[17:57:05 INFO]: [Monopoly] reset
+[17:57:05 INFO]: [Monopoly] AI started now
+[17:57:56 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 3238.0, 1687
+	2: AI4 (3): 2167.0, 2111
+	3: AI3 (4): 2085.0, 630
+	4: AI1 (1): 1044.0, -87
+	bNwC: 336, reward value: 1.5
+[17:57:56 INFO]: [Monopoly] Game 50 finished, ActionCount: 1024 (/84535), 51.197s (1game)
+[17:57:57 INFO]: [Monopoly] reset
+[17:57:57 INFO]: [Monopoly] AI started now
+[17:58:49 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2363.5, 2068
+	2: AI1 (1): 2339.0, 2285
+	3: AI2 (2): 1502.0, -15
+	4: AI4 (3): 1045.0, 229
+	bNwC: 336, reward value: 1.5
+[17:58:49 INFO]: [Monopoly] Game 51 finished, ActionCount: 1050 (/85585), 52.562s (1game)
+[17:58:49 INFO]: [Monopoly] reset
+[17:58:49 INFO]: [Monopoly] AI started now
+[17:59:39 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2638.0, 1590
+	2: AI3 (4): 1602.0, 1255
+	3: AI2 (2): 1082.5, -66
+	4: AI4 (3): 799.0, 600
+	bNwC: 365, reward value: 1.5
+[17:59:39 INFO]: [Monopoly] Game 52 finished, ActionCount: 997 (/86582), 49.845s (1game)
+[17:59:39 INFO]: [Monopoly] reset
+[17:59:39 INFO]: [Monopoly] AI started now
+[18:00:00 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2890.0, 1405
+	2: AI4 (3): 2215.5, 1636
+	3: AI3 (4): 1871.0, 1745
+	4: AI1 (1): 1187.0, -45
+	bNwC: 300, reward value: 1.5
+[18:00:00 INFO]: [Monopoly] Game 53 finished, ActionCount: 415 (/86997), 20.738s (1game)
+[18:00:00 INFO]: [Monopoly] reset
+[18:00:00 INFO]: [Monopoly] AI started now
+[18:00:50 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 3567.0, 3256
+	2: AI2 (2): 2874.5, 1746
+	3: AI4 (3): 2334.0, 2149
+	4: AI1 (1): 1401.0, -71
+	bNwC: 510, reward value: 1.53
+[18:00:50 INFO]: [Monopoly] Game 54 finished, ActionCount: 1010 (/88007), 50.507s (1game)
+[18:00:51 INFO]: [Monopoly] reset
+[18:00:51 INFO]: [Monopoly] AI started now
+[18:01:51 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2212.0, 1466
+	2: AI4 (3): 1826.0, 1891
+	3: AI2 (2): 1774.0, 1424
+	4: AI1 (1): 1119.0, -107
+	bNwC: 400, reward value: 1.5
+[18:01:51 INFO]: [Monopoly] Game 55 finished, ActionCount: 1210 (/89217), 60.502s (1game)
+[18:01:51 INFO]: [Monopoly] reset
+[18:01:51 INFO]: [Monopoly] AI started now
+[18:03:18 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3113.0, 1030
+	2: AI4 (3): 2609.5, 1730
+	3: AI3 (4): 1207.0, 1039
+	4: AI2 (2): 681.5, -202
+	bNwC: 600, reward value: 1.8
+[18:03:18 INFO]: [Monopoly] Game 56 finished, ActionCount: 1739 (/90956), 86.908s (1game)
+[18:03:18 INFO]: [Monopoly] reset
+[18:03:18 INFO]: [Monopoly] AI started now
+[18:04:25 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2626.0, 1746
+	2: AI1 (1): 1868.0, 1019
+	3: AI2 (2): 1631.0, 834
+	4: AI4 (3): 973.5, -34
+	bNwC: 420, reward value: 1.5
+[18:04:25 INFO]: [Monopoly] Game 57 finished, ActionCount: 1336 (/92292), 66.797s (1game)
+[18:04:25 INFO]: [Monopoly] reset
+[18:04:25 INFO]: [Monopoly] AI started now
+[18:04:32 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[18:04:38 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[18:04:44 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[18:04:50 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[18:04:56 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[18:05:36 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3246.0, 1660
+	2: AI3 (4): 2609.5, 2513
+	3: AI2 (2): 2118.0, 788
+	4: AI4 (3): 764.0, -15
+	bNwC: 426, reward value: 1.5
+[18:05:36 INFO]: [Monopoly] Game 58 finished, ActionCount: 771 (/93063), 70.498s (1game)
+[18:05:36 INFO]: [Monopoly] reset
+[18:05:36 INFO]: [Monopoly] AI started now
+[18:07:32 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 3815.0, 3087
+	2: AI1 (1): 1487.0, 795
+	3: AI2 (2): 1307.5, 543
+	4: AI3 (4): 1092.0, -165
+	bNwC: 380, reward value: 1.5
+[18:07:32 INFO]: [Monopoly] Game 59 finished, ActionCount: 2330 (/95393), 116.507s (1game)
+[18:07:32 INFO]: [Monopoly] reset
+[18:07:32 INFO]: [Monopoly] AI started now
+[18:09:16 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 3744.0, 2407
+	2: AI2 (2): 1996.5, 1331
+	3: AI1 (1): 1562.5, 1158
+	4: AI4 (3): 1051.0, -87
+	bNwC: 425, reward value: 1.5
+[18:09:16 INFO]: [Monopoly] Game 60 finished, ActionCount: 2076 (/97469), 103.809s (1game)
+[18:09:16 INFO]: [Monopoly] reset
+[18:09:16 INFO]: [Monopoly] AI started now
+[18:09:40 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2234.0, 1731
+	2: AI3 (4): 1454.5, 699
+	3: AI1 (1): 1451.0, -207
+	4: AI4 (3): 1061.0, 962
+	bNwC: 288, reward value: 1.5
+[18:09:40 INFO]: [Monopoly] Game 61 finished, ActionCount: 475 (/97944), 23.745s (1game)
+[18:09:40 INFO]: [Monopoly] reset
+[18:09:40 INFO]: [Monopoly] AI started now
+[18:10:05 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2077.0, 1802
+	2: AI4 (3): 1999.0, 1526
+	3: AI1 (1): 1935.0, -300
+	4: AI3 (4): 1877.0, 1591
+	bNwC: 295, reward value: 1.5
+[18:10:05 INFO]: [Monopoly] Game 62 finished, ActionCount: 493 (/98437), 24.65s (1game)
+[18:10:05 INFO]: [Monopoly] reset
+[18:10:05 INFO]: [Monopoly] AI started now
+[18:11:08 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2654.0, 1799
+	2: AI2 (2): 2558.5, 1515
+	3: AI4 (3): 1035.0, 526
+	4: AI3 (4): 872.0, -13
+	bNwC: 365, reward value: 1.5
+[18:11:08 INFO]: [Monopoly] Game 63 finished, ActionCount: 1264 (/99701), 63.211s (1game)
+[18:11:08 INFO]: [Monopoly] reset
+[18:11:08 INFO]: [Monopoly] AI started now
+[18:11:52 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2435.0, 1704
+	2: AI1 (1): 1953.0, 1733
+	3: AI3 (4): 1491.0, 486
+	4: AI2 (2): 1005.0, -78
+	bNwC: 400, reward value: 1.5
+[18:11:52 INFO]: [Monopoly] Game 64 finished, ActionCount: 872 (/100573), 43.611s (1game)
+[18:11:52 INFO]: [Monopoly] reset
+[18:11:52 INFO]: [Monopoly] AI started now
+[18:13:04 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2361.0, 1503
+	2: AI4 (3): 2129.0, 2188
+	3: AI3 (4): 1826.0, 1124
+	4: AI1 (1): 1275.0, -79
+	bNwC: 430, reward value: 1.5
+[18:13:04 INFO]: [Monopoly] Game 65 finished, ActionCount: 1451 (/102024), 72.513s (1game)
+[18:13:05 INFO]: [Monopoly] reset
+[18:13:05 INFO]: [Monopoly] AI started now
+[18:13:46 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2743.0, 1383
+	2: AI1 (1): 1821.0, 1030
+	3: AI3 (4): 1817.0, 1758
+	4: AI2 (2): 1295.0, -146
+	bNwC: 400, reward value: 1.5
+[18:13:46 INFO]: [Monopoly] Game 66 finished, ActionCount: 835 (/102859), 41.745s (1game)
+[18:13:46 INFO]: [Monopoly] reset
+[18:13:46 INFO]: [Monopoly] AI started now
+[18:14:45 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 1949.0, 1187
+	2: AI4 (3): 1789.0, 709
+	3: AI3 (4): 1378.0, 1394
+	4: AI2 (2): 463.0, -1
+	bNwC: 460, reward value: 1.5
+[18:14:45 INFO]: [Monopoly] Game 67 finished, ActionCount: 1169 (/104028), 58.743s (1game)
+[18:14:45 INFO]: [Monopoly] reset
+[18:14:45 INFO]: [Monopoly] AI started now
+[18:15:19 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2957.0, 2156
+	2: AI3 (4): 1705.0, 1523
+	3: AI2 (2): 1515.0, -16
+	4: AI4 (3): 830.5, 896
+	bNwC: 475, reward value: 1.5
+[18:15:19 INFO]: [Monopoly] Game 68 finished, ActionCount: 671 (/104699), 33.545s (1game)
+[18:15:19 INFO]: [Monopoly] reset
+[18:15:19 INFO]: [Monopoly] AI started now
+[18:16:11 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2852.0, 2225
+	2: AI2 (2): 2688.0, 2100
+	3: AI3 (4): 1171.0, 949
+	4: AI4 (3): 921.0, -40
+	bNwC: 426, reward value: 1.5
+[18:16:11 INFO]: [Monopoly] Game 69 finished, ActionCount: 1043 (/105742), 52.153s (1game)
+[18:16:11 INFO]: [Monopoly] reset
+[18:16:11 INFO]: [Monopoly] AI started now
+[18:16:20 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[18:16:26 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[18:16:32 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[18:16:38 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[18:16:44 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[18:17:13 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2467.0, 1226
+	2: AI4 (3): 2011.0, 1813
+	3: AI1 (1): 1306.5, -94
+	4: AI3 (4): 1212.0, 1017
+	bNwC: 310, reward value: 1.5
+[18:17:13 INFO]: [Monopoly] Game 70 finished, ActionCount: 547 (/106289), 62.156s (1game)
+[18:17:13 INFO]: [Monopoly] reset
+[18:17:13 INFO]: [Monopoly] AI started now
+[18:17:46 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2893.0, 1635
+	2: AI3 (4): 2186.0, 1556
+	3: AI2 (2): 1728.0, 1429
+	4: AI1 (1): 790.0, -18
+	bNwC: 442, reward value: 1.5
+[18:17:46 INFO]: [Monopoly] Game 71 finished, ActionCount: 661 (/106950), 33.054s (1game)
+[18:17:46 INFO]: [Monopoly] reset
+[18:17:46 INFO]: [Monopoly] AI started now
+[18:18:19 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2499.5, 1592
+	2: AI4 (3): 2357.0, 1070
+	3: AI3 (4): 1295.0, 614
+	4: AI1 (1): 1281.0, -24
+	bNwC: 410, reward value: 1.5
+[18:18:19 INFO]: [Monopoly] Game 72 finished, ActionCount: 652 (/107602), 32.549s (1game)
+[18:18:19 INFO]: [Monopoly] reset
+[18:18:19 INFO]: [Monopoly] AI started now
+[18:19:17 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 3168.5, 2193
+	2: AI1 (1): 2721.5, 2534
+	3: AI4 (3): 1456.0, 929
+	4: AI2 (2): 908.0, -64
+	bNwC: 630, reward value: 1.8900000000000001
+[18:19:17 INFO]: [Monopoly] Game 73 finished, ActionCount: 1152 (/108754), 57.614s (1game)
+[18:19:17 INFO]: [Monopoly] reset
+[18:19:17 INFO]: [Monopoly] AI started now
+[18:19:47 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 3260.0, 2180
+	2: AI4 (3): 2299.0, 1247
+	3: AI2 (2): 1823.0, 1691
+	4: AI1 (1): 958.0, -12
+	bNwC: 440, reward value: 1.5
+[18:19:47 INFO]: [Monopoly] Game 74 finished, ActionCount: 602 (/109356), 30.093s (1game)
+[18:19:47 INFO]: [Monopoly] reset
+[18:19:47 INFO]: [Monopoly] AI started now
+[18:20:19 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2441.0, 1740
+	2: AI4 (3): 1481.0, 755
+	3: AI3 (4): 1047.5, 440
+	4: AI2 (2): 611.5, -16
+	bNwC: 256, reward value: 1.5
+[18:20:19 INFO]: [Monopoly] Game 75 finished, ActionCount: 652 (/110008), 32.611s (1game)
+[18:20:20 INFO]: [Monopoly] reset
+[18:20:20 INFO]: [Monopoly] AI started now
+[18:40:05 INFO]: UUID of player Loeweguckmal is 9a79d3d9-aa5d-32f7-a65d-b116362e695a
+[18:40:05 INFO]: [Monopoly] Player has played before
+[18:40:05 INFO]: Loeweguckmal joined the Game
+[18:40:05 INFO]: Loeweguckmal[/127.0.0.1:51482] logged in with entity id 3489 at ([world]995.5, 70.0, -5.5)
+[18:40:19 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:40:22 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:40:23 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:40:26 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:40:35 INFO]: Loeweguckmal issued server command: /bp AI1
+[18:41:13 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:14 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:15 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:15 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:16 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:17 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:17 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:18 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:18 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:19 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:19 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:20 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:21 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:21 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:22 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:22 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:41:24 INFO]: Loeweguckmal issued server command: /bp AI1
+[18:41:28 INFO]: Loeweguckmal issued server command: /bp AI2
+[18:41:31 INFO]: Loeweguckmal issued server command: /bp AI3
+[18:41:34 INFO]: Loeweguckmal issued server command: /bp AI4
+[18:41:52 INFO]: Loeweguckmal issued server command: /bp AI3
+[18:41:55 INFO]: Loeweguckmal issued server command: /bp AI2
+[18:42:06 INFO]: Loeweguckmal issued server command: /bp AI1
+[18:42:50 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:42:51 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:42:52 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:42:55 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:42:58 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:43:01 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:43:04 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:22 INFO]: Loeweguckmal issued server command: /money set ai2 300
+[18:43:25 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:26 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:26 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:27 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:28 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:29 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:30 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:31 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:32 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:33 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:34 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:35 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:35 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:36 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:37 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:38 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:38 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:39 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:39 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:40 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:40 INFO]: Loeweguckmal issued server command: /money get AI2t
+[18:43:41 INFO]: Loeweguckmal issued server command: /money get AI2t
+[18:43:43 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:44 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:44 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:45 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:46 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:46 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:47 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:43:54 INFO]: Loeweguckmal issued server command: /bp AI2
+[18:44:23 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 11394.0, 11155
+	2: AI4 (3): 5411.5, 4571
+	3: AI1 (1): 3856.0, 3124
+	4: AI2 (2): 2385.5, 1618
+	bNwC: 500, reward value: 1.5
+[18:44:23 INFO]: [Monopoly] Game 76 finished, ActionCount: 28824 (/138832), 1443.099s (1game)
+[18:44:25 INFO]: [Monopoly] reset
+[18:44:25 INFO]: [Monopoly] AI started now
+[18:45:28 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2740.0, 1787
+	2: AI3 (4): 2097.0, 1033
+	3: AI2 (2): 1307.0, 550
+	4: AI4 (3): 897.5, -36
+	bNwC: 500, reward value: 1.5
+[18:45:28 INFO]: [Monopoly] Game 77 finished, ActionCount: 1252 (/140084), 62.702s (1game)
+[18:45:28 INFO]: [Monopoly] reset
+[18:45:28 INFO]: [Monopoly] AI started now
+[18:46:25 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2109.0, 676
+	2: AI1 (1): 1472.0, 835
+	3: AI4 (3): 1198.0, 577
+	4: AI2 (2): 740.5, -89
+	bNwC: 300, reward value: 1.5
+[18:46:25 INFO]: [Monopoly] Game 78 finished, ActionCount: 1139 (/141223), 56.906s (1game)
+[18:46:25 INFO]: [Monopoly] reset
+[18:46:25 INFO]: [Monopoly] AI started now
+[18:47:17 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2026.0, 1767
+	2: AI3 (4): 1966.0, 2005
+	3: AI4 (3): 1564.0, -136
+	4: AI1 (1): 1131.0, 644
+	bNwC: 400, reward value: 1.5
+[18:47:17 INFO]: [Monopoly] Game 79 finished, ActionCount: 1045 (/142268), 52.243s (1game)
+[18:47:17 INFO]: [Monopoly] reset
+[18:47:17 INFO]: [Monopoly] AI started now
+[18:48:03 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 3159.0, 2072
+	2: AI2 (2): 2567.0, 1079
+	3: AI3 (4): 1655.0, 1172
+	4: AI1 (1): 781.0, -18
+	bNwC: 510, reward value: 1.53
+[18:48:03 INFO]: [Monopoly] Game 80 finished, ActionCount: 914 (/143182), 45.709s (1game)
+[18:48:03 INFO]: [Monopoly] reset
+[18:48:03 INFO]: [Monopoly] AI started now
+[18:48:59 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2897.0, 1919
+	2: AI2 (2): 1970.5, 1560
+	3: AI4 (3): 1626.5, 1023
+	4: AI1 (1): 585.5, -105
+	bNwC: 332, reward value: 1.5
+[18:48:59 INFO]: [Monopoly] Game 81 finished, ActionCount: 1108 (/144290), 55.6s (1game)
+[18:48:59 INFO]: [Monopoly] reset
+[18:48:59 INFO]: [Monopoly] AI started now
+[18:49:45 INFO]: [Monopoly] ranking:
+	1: AI4 (3): 2210.0, 2273
+	2: AI3 (4): 2176.0, 1602
+	3: AI1 (1): 1302.0, -11
+	4: AI2 (2): 926.0, 329
+	bNwC: 300, reward value: 1.5
+[18:49:45 INFO]: [Monopoly] Game 82 finished, ActionCount: 936 (/145226), 46.801s (1game)
+[18:49:46 INFO]: [Monopoly] reset
+[18:49:46 INFO]: [Monopoly] AI started now
+[18:51:10 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 3397.0, 3142
+	2: AI1 (1): 2915.5, 2662
+	3: AI4 (3): 2324.0, 1295
+	4: AI2 (2): 1362.0, -36
+	bNwC: 398, reward value: 1.5
+[18:51:10 INFO]: [Monopoly] Game 83 finished, ActionCount: 1680 (/146906), 84.004s (1game)
+[18:51:10 INFO]: [Monopoly] reset
+[18:51:10 INFO]: [Monopoly] AI started now
+[18:51:43 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 2392.5, 1765
+	2: AI4 (3): 1895.0, 1799
+	3: AI1 (1): 1861.0, 1641
+	4: AI2 (2): 1100.5, -63
+	bNwC: 300, reward value: 1.5
+[18:51:43 INFO]: [Monopoly] Game 84 finished, ActionCount: 660 (/147566), 33.0s (1game)
+[18:51:43 INFO]: [Monopoly] reset
+[18:51:43 INFO]: [Monopoly] AI started now
+[18:52:31 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3082.0, 1954
+	2: AI4 (3): 2300.0, 1823
+	3: AI3 (4): 1465.0, -161
+	4: AI2 (2): 1384.0, 765
+	bNwC: 260, reward value: 1.5
+[18:52:31 INFO]: [Monopoly] Game 85 finished, ActionCount: 973 (/148539), 48.652s (1game)
+[18:52:31 INFO]: [Monopoly] reset
+[18:52:31 INFO]: [Monopoly] AI started now
+[18:53:34 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2797.0, 2267
+	2: AI2 (2): 2545.5, 1818
+	3: AI3 (4): 1329.0, -9
+	4: AI4 (3): 1294.0, 724
+	bNwC: 390, reward value: 1.5
+[18:53:34 INFO]: [Monopoly] Game 86 finished, ActionCount: 1260 (/149799), 63.003s (1game)
+[18:53:35 INFO]: [Monopoly] reset
+[18:53:35 INFO]: [Monopoly] AI started now
+[18:54:25 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 3174.0, 2658
+	2: AI4 (3): 2320.0, 1983
+	3: AI1 (1): 2302.0, 1909
+	4: AI2 (2): 1196.0, -45
+	bNwC: 400, reward value: 1.5
+[18:54:25 INFO]: [Monopoly] Game 87 finished, ActionCount: 1019 (/150818), 50.952s (1game)
+[18:54:26 INFO]: [Monopoly] reset
+[18:54:26 INFO]: [Monopoly] AI started now
+[18:57:23 INFO]: Loeweguckmal issued server command: /bp AI2
+[18:57:28 INFO]: Loeweguckmal issued server command: /bp AI1
+[18:57:36 INFO]: Loeweguckmal issued server command: /bp AI3
+[18:57:39 INFO]: Loeweguckmal issued server command: /bp AI4
+[18:57:50 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:57:53 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:57:55 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:57:57 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:58:18 INFO]: Loeweguckmal issued server command: /bp AI4
+[18:58:38 INFO]: Loeweguckmal issued server command: /bp AI3
+[18:58:55 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:58:56 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:58:57 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:58:57 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:58:58 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:58:59 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:58:59 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:00 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:00 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:01 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:01 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:02 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:02 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:03 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:03 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:04 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:04 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:05 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:05 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:06 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:06 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:07 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:07 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:08 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:08 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:09 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:09 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:10 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:10 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:11 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:11 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:12 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:12 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:13 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:14 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:15 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:16 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:17 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:17 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:18 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:19 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:19 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:20 INFO]: Loeweguckmal issued server command: /money get AI4
+[18:59:21 INFO]: Loeweguckmal issued server command: /money get AI4t
+[18:59:24 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:26 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:27 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:27 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:28 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:29 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:29 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:30 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:31 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:31 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:32 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:33 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:33 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:34 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:34 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:35 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:36 INFO]: Loeweguckmal issued server command: /money get AI3
+[18:59:39 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:39 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:40 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:41 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:41 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:42 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:42 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:43 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:44 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:44 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:45 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:45 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:46 INFO]: Loeweguckmal issued server command: /money get AI2
+[18:59:48 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:49 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:50 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:50 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:51 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:51 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:52 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:53 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:53 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:54 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:57 INFO]: Loeweguckmal issued server command: /money get AI1
+[18:59:59 INFO]: Loeweguckmal issued server command: /money get AI2
+[19:00:15 INFO]: Loeweguckmal issued server command: /money set ai2 -10
+[19:00:16 INFO]: [Monopoly] ranking:
+	1: AI3 (4): 7946.0, 7583
+	2: AI4 (3): 5502.0, 4729
+	3: AI1 (1): 4168.0, 3263
+	4: AI2 (2): 168.5, -36
+	bNwC: 400, reward value: 1.5
+[19:00:16 INFO]: [Monopoly] Game 88 finished, ActionCount: 7005 (/157823), 350.265s (1game)
+[19:00:16 INFO]: [Monopoly] reset
+[19:00:16 INFO]: [Monopoly] AI started now
+[19:00:24 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[19:00:30 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[19:00:36 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[19:00:42 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[19:00:48 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[19:00:54 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[19:01:00 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[19:01:06 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+[19:01:12 INFO]: [Monopoly] -------------same state after 7s: AUCTION-------------
+stog
+[19:01:13 INFO]:
+stopped the game
+[19:01:13 WARN]: AI2 moved too quickly! 67.0,59.0,66.0
+[19:01:13 WARN]: AI4 moved too quickly! 67.0,59.0,66.0
+[19:01:13 WARN]: AI3 moved too quickly! 67.0,59.0,66.0

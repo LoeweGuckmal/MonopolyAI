@@ -1,0 +1,1223 @@
+C:\Users\Simon\.jdks\openjdk-21.0.2\bin\java.exe -Xms10G -Xmx16G -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -jar C:\Users\Simon\Documents\Dokumente\Minecraft\plugin\MonopolyServer\Monopoly_Server_Paper_Offline\paper.jar --nogui
+Starting org.bukkit.craftbukkit.Main
+*** Warning, you've not updated in a while! ***
+*** Please download a new build from https://papermc.io/downloads/paper ***
+2025-10-16T21:36:38.699953800Z ServerMain WARN Advanced terminal features are not available in this environment
+[23:36:38 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.2+13-58; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[23:36:38 INFO]: [bootstrap] Loading Paper 1.21.4-185-main@0a6e743 (2025-02-26T13:10:43Z) for Minecraft 1.21.4
+[23:36:39 INFO]: [PluginInitializerManager] Initializing plugins...
+[23:36:39 INFO]: [PluginRemapper] Remapping plugin 'plugins\Monopoly-1.5.8-SNAPSHOT.jar'...
+[23:36:40 INFO]: [PluginRemapper] Done remapping plugin 'plugins\Monopoly-1.5.8-SNAPSHOT.jar' in 503ms.
+[23:36:40 INFO]: [FileProviderSource] The spark plugin will not be loaded as this server bundles the spark profiler.
+[23:36:40 INFO]: [PluginInitializerManager] Initialized 2 plugins
+[23:36:40 INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - Monopoly (1.5.8-SNAPSHOT), WorldEdit (7.3.10+7004-768a436)
+[23:36:44 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:36:44 INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[23:36:44 INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 331.5ms
+[23:36:45 INFO]: Loaded 1370 recipes
+[23:36:45 INFO]: Loaded 1481 advancements
+[23:36:45 INFO]: Starting minecraft server version 1.21.4
+[23:36:45 INFO]: Loading properties
+[23:36:45 INFO]: This server is running Paper version 1.21.4-185-main@0a6e743 (2025-02-26T13:10:43Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[23:36:46 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:36:46 INFO]: Server Ping Player Sample Count: 12
+[23:36:46 INFO]: Using 4 threads for Netty based IO
+[23:36:46 ERROR]: [Configurations] Loading a newer configuration than is supported (30 > 29)! You may have to backup & delete your global config file to start the server.
+[23:36:46 INFO]: [MoonriseCommon] Paper is using 6 worker threads, 1 I/O threads
+[23:36:46 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[23:36:46 INFO]: Default game type: CREATIVE
+[23:36:46 INFO]: Generating keypair
+[23:36:46 INFO]: Starting Minecraft server on 127.0.0.1:30068
+[23:36:46 INFO]: Using default channel type
+[23:36:46 INFO]: Paper: Using Java compression from Velocity.
+[23:36:46 INFO]: Paper: Using Java cipher from Velocity.
+[23:36:47 INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.10+7004-768a436
+[23:36:47 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@441fab80]
+[23:36:47 INFO]: [Monopoly] Loading server plugin Monopoly v1.5.8-SNAPSHOT
+[23:36:47 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:36:47 INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
+[23:36:47 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[23:36:47 INFO]: WEPIF: Using the Bukkit Permissions API.
+[23:36:48 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[23:36:49 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:36:49 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:36:49 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:36:49 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:36:49 INFO]: Preparing level "world"
+[23:36:49 INFO]: -------- World Settings For [world] --------
+[23:36:49 INFO]: Mob Spawn Range: 6
+[23:36:49 INFO]: Nerfing mobs spawned from spawners: false
+[23:36:49 INFO]: Item Despawn Rate: 6000
+[23:36:49 INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[23:36:49 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[23:36:49 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[23:36:49 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[23:36:49 INFO]: Max TNT Explosions: 100
+[23:36:49 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:36:49 INFO]: Cactus Growth Modifier: 100%
+[23:36:49 INFO]: Cane Growth Modifier: 100%
+[23:36:49 INFO]: Melon Growth Modifier: 100%
+[23:36:49 INFO]: Mushroom Growth Modifier: 100%
+[23:36:49 INFO]: Pumpkin Growth Modifier: 100%
+[23:36:49 INFO]: Sapling Growth Modifier: 100%
+[23:36:49 INFO]: Beetroot Growth Modifier: 100%
+[23:36:49 INFO]: Carrot Growth Modifier: 100%
+[23:36:49 INFO]: Potato Growth Modifier: 100%
+[23:36:49 INFO]: TorchFlower Growth Modifier: 100%
+[23:36:49 INFO]: Wheat Growth Modifier: 100%
+[23:36:49 INFO]: NetherWart Growth Modifier: 100%
+[23:36:49 INFO]: Vine Growth Modifier: 100%
+[23:36:49 INFO]: Cocoa Growth Modifier: 100%
+[23:36:49 INFO]: Bamboo Growth Modifier: 100%
+[23:36:49 INFO]: SweetBerry Growth Modifier: 100%
+[23:36:49 INFO]: Kelp Growth Modifier: 100%
+[23:36:49 INFO]: TwistingVines Growth Modifier: 100%
+[23:36:49 INFO]: WeepingVines Growth Modifier: 100%
+[23:36:49 INFO]: CaveVines Growth Modifier: 100%
+[23:36:49 INFO]: GlowBerry Growth Modifier: 100%
+[23:36:49 INFO]: PitcherPlant Growth Modifier: 100%
+[23:36:49 INFO]: Simulation Distance: 10
+[23:36:49 INFO]: View Distance: 10
+[23:36:49 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[23:36:49 INFO]: Experience Merge Radius: 3.0
+[23:36:49 INFO]: Item Merge Radius: 2.5
+[23:36:49 INFO]: Zombie Aggressive Towards Villager: true
+[23:36:49 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:36:49 INFO]: Preparing start region for dimension minecraft:overworld
+[23:36:50 INFO]: Preparing spawn area: 0%
+[23:36:50 INFO]: Preparing spawn area: 2%
+[23:36:50 INFO]: Time elapsed: 612 ms
+[23:36:50 INFO]: [Monopoly] Enabling Monopoly v1.5.8-SNAPSHOT
+[23:36:50 INFO]: [Monopoly] Sign from Monopoly, enabling Monopoly on version: 1.5.8-SNAPSHOT
+[23:36:50 INFO]: [Monopoly] started RestartServer at: /192.168.1.168:9990
+[23:36:50 INFO]: [spark] Starting background profiler...
+[23:36:50 INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[23:36:50 INFO]: Done preparing level "world" (1.744s)
+[23:36:50 INFO]: Running delayed init tasks
+[23:36:50 INFO]: Done (12.702s)! For help, type "help"
+s[23:36:51 INFO]: UUID of player AI1 is 6c78247f-5129-349c-9736-f039d9729d81
+[23:36:51 INFO]: UUID of player AI2 is 5b5ff32d-3766-3115-888f-66e1e9c80a01
+t[23:36:51 INFO]: UUID of player AI4 is 13f0c066-2e0f-38e0-b1a7-bc525bd95be1
+[23:36:51 INFO]: UUID of player AI3 is a5166c0e-92ca-3e41-a30d-5c8f5395a783
+a[23:36:52 INFO]: [Monopoly] Player has played before
+[23:36:52 INFO]: AI2 joined the Game
+[23:36:52 INFO]: AI2[/127.0.0.1:57066] logged in with entity id 106 at ([world]995.5, 16.5, -5.5)
+[23:36:52 INFO]: [Monopoly] Player has played before
+[23:36:52 INFO]: AI1 joined the Game
+[23:36:52 INFO]: AI1[/127.0.0.1:57064] logged in with entity id 107 at ([world]995.5, 16.5, -5.5)
+[23:36:52 INFO]: [Monopoly] Player has played before
+[23:36:52 INFO]: AI4 joined the Game
+[23:36:52 INFO]: AI4[/127.0.0.1:57070] logged in with entity id 108 at ([world]995.5, 16.5, -5.5)
+[23:36:52 INFO]: [Monopoly] Player has played before
+[23:36:52 INFO]: AI3 joined the Game
+[23:36:52 INFO]: AI3[/127.0.0.1:57068] logged in with entity id 109 at ([world]995.5, 16.5, -5.5)
+rtPrismarine viewer web server running on *:3008
+Prismarine viewer web server running on *:3009
+Prismarine viewer web server running on *:3010
+Prismarine viewer web server running on *:3007
+ AI1 AI2 AI3 AI4
+[23:36:59 INFO]: [Monopoly] AI started now
+[23:37:22 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 1908.0, 768, reward sum: 57.231494679643504
+	2: AI2 (2): 1440.0, 950, reward sum: 35.53501609026373
+	3: AI1 (1): 1136.0, 56, reward sum: 31.283494679643507
+	4: AI3 (3): 25.919999999999995, -74, reward sum: 10.97789696085493
+	bNwC: 255, reward value: 15.0, reward mean: 33.756975602601415
+[23:37:22 INFO]: [Monopoly] ranks of AI: [1, 1, 0, 0]
+ranks of randomizer: [0, 0, 1, 1]
+[23:37:22 INFO]: [Monopoly] Terminal Reward: {"agent_1":"3.604715","agent_4":"32.273838","agent_2":"16.253051","agent_3":"-13.387544"}
+[23:37:22 INFO]: [Monopoly] Game 1 finished, ActionCount: 293 (/293), 23.346s (1game)
+[23:37:22 INFO]: [Monopoly] AI started now
+[23:37:30 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 1663.0, 1663, reward sum: 27.96787776868372
+	2: AI2 (2): 1525.0, 1325, reward sum: 18.554375
+	3: AI1 (1): 1430.0, 1280, reward sum: 2.8958617101228885
+	4: AI3 (3): 77.04000000000005, -38, reward sum: -7.685722231316281
+	bNwC: 220, reward value: 15.0, reward mean: 10.433098061872581
+[23:37:30 INFO]: [Monopoly] ranks of AI: [2, 2, 0, 0]
+ranks of randomizer: [0, 0, 2, 2]
+[23:37:30 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-0.828232","agent_4":"24.851578","agent_2":"14.850313","agent_3":"-13.324124"}
+[23:37:30 INFO]: [Monopoly] Game 2 finished, ActionCount: 63 (/356), 8.266s (1game)
+[23:37:30 INFO]: [Monopoly] AI started now
+[23:37:48 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2212.0, 782, reward sum: 56.389056301248466
+	2: AI3 (3): 1646.0, 1226, reward sum: 26.13800479425057
+	3: AI1 (1): 1610.0, 1130, reward sum: 10.648817365464403
+	4: AI4 (4): 52.240000000000094, -78, reward sum: 7.43345193811982
+	bNwC: 298, reward value: 15.0, reward mean: 25.152332599770816
+[23:37:48 INFO]: [Monopoly] ranks of AI: [3, 2, 0, 1]
+ranks of randomizer: [0, 1, 3, 2]
+[23:37:48 INFO]: [Monopoly] Terminal Reward: {"agent_1":"1.871283","agent_4":"-13.961246","agent_2":"32.574361","agent_3":"16.661899"}
+[23:37:48 INFO]: [Monopoly] Game 3 finished, ActionCount: 243 (/599), 17.938s (1game)
+[23:37:48 INFO]: [Monopoly] AI started now
+[23:40:12 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 4096.0, 1776, reward sum: 228.0891599620757
+	2: AI3 (3): 3875.0, 1415, reward sum: 157.26042070043763
+	3: AI4 (4): 3581.0, 1421, reward sum: 202.5691599620757
+	4: AI1 (1): -62.239999999999995, -122, reward sum: 56.95502535734056
+	bNwC: 340, reward value: 15.0, reward mean: 161.2184414954824
+[23:40:12 INFO]: [Monopoly] ranks of AI: [4, 2, 1, 1]
+ranks of randomizer: [0, 2, 3, 3]
+[23:40:12 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.926400","agent_4":"23.859835","agent_2":"79.962819","agent_3":"40.433917"}
+[23:40:12 INFO]: [Monopoly] Game 4 finished, ActionCount: 1544 (/2143), 143.204s (1game)
+[23:40:12 INFO]: [Monopoly] AI started now
+[23:41:21 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2577.0, 377, reward sum: 161.92030826629758
+	2: AI1 (1): 2384.0, 734, reward sum: 107.75516869318704
+	3: AI4 (4): 2199.0, 1339, reward sum: 61.31268946204656
+	4: AI3 (3): 44.399999999999864, -80, reward sum: 42.60174576422173
+	bNwC: 320, reward value: 15.0, reward mean: 93.39747804643824
+[23:41:21 INFO]: [Monopoly] ranks of AI: [5, 2, 2, 1]
+ranks of randomizer: [0, 3, 3, 4]
+[23:41:21 INFO]: [Monopoly] Terminal Reward: {"agent_1":"27.454586","agent_4":"6.547283","agent_2":"47.710177","agent_3":"-13.161046"}
+[23:41:21 INFO]: [Monopoly] Game 5 finished, ActionCount: 681 (/2824), 69.529s (1game)
+[23:41:21 INFO]: [Monopoly] AI started now
+[23:41:56 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2104.0, 404, reward sum: 92.03163270152623
+	2: AI3 (3): 1514.0, 784, reward sum: 37.91363898193145
+	3: AI1 (1): 1286.0, 76, reward sum: 40.78324211021439
+	4: AI4 (4): 134.32, -4, reward sum: 23.580611032058744
+	bNwC: 256, reward value: 15.0, reward mean: 48.57728120643271
+[23:41:56 INFO]: [Monopoly] ranks of AI: [6, 2, 2, 2]
+ranks of randomizer: [0, 4, 4, 4]
+[23:41:56 INFO]: [Monopoly] Terminal Reward: {"agent_1":"4.973005","agent_4":"-12.587032","agent_2":"33.732914","agent_3":"17.995338"}
+[23:41:56 INFO]: [Monopoly] Game 6 finished, ActionCount: 435 (/3259), 34.784s (1game)
+[23:41:56 INFO]: [Monopoly] AI started now
+[23:43:20 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2769.0, 459, reward sum: 176.5885580123023
+	2: AI1 (1): 1735.0, 165, reward sum: 100.10438697719474
+	3: AI3 (3): 1607.0, 317, reward sum: 101.19942216152518
+	4: AI2 (2): -29.52000000000004, -181, reward sum: 122.44335801230228
+	bNwC: 356, reward value: 15.0, reward mean: 125.08393129083112
+[23:43:20 INFO]: [Monopoly] ranks of AI: [7, 2, 2, 3]
+ranks of randomizer: [0, 5, 5, 4]
+[23:43:20 INFO]: [Monopoly] Terminal Reward: {"agent_1":"24.338879","agent_4":"71.837905","agent_2":"-14.176678","agent_3":"7.548331"}
+[23:43:20 INFO]: [Monopoly] Game 7 finished, ActionCount: 1298 (/4557), 84.478s (1game)
+[23:43:20 INFO]: [Monopoly] AI started now
+[23:44:05 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2582.0, 1242, reward sum: 96.94521715593571
+	2: AI4 (4): 1851.0, 1, reward sum: 89.5812171559357
+	3: AI3 (3): 873.0, 53, reward sum: 35.161825071381664
+	4: AI1 (1): 130.28000000000014, -16, reward sum: 31.65518476644953
+	bNwC: 360, reward value: 15.0, reward mean: 63.335861037425644
+[23:44:05 INFO]: [Monopoly] ranks of AI: [8, 3, 2, 3]
+ranks of randomizer: [0, 5, 6, 5]
+[23:44:05 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.085508","agent_4":"26.110150","agent_2":"61.330363","agent_3":"0.966005"}
+[23:44:05 INFO]: [Monopoly] Game 8 finished, ActionCount: 473 (/5030), 44.594s (1game)
+[23:44:05 INFO]: [Monopoly] AI started now
+[23:44:49 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2524.0, 434, reward sum: 97.76472942971319
+	2: AI2 (2): 1856.0, 696, reward sum: 80.55401053022999
+	3: AI3 (3): 1822.0, 722, reward sum: 45.814667339797495
+	4: AI1 (1): 63.55999999999996, -32, reward sum: 18.893738245483977
+	bNwC: 320, reward value: 15.0, reward mean: 60.75678638630616
+[23:44:49 INFO]: [Monopoly] ranks of AI: [9, 4, 2, 3]
+ranks of randomizer: [0, 5, 7, 6]
+[23:44:49 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.133314","agent_4":"40.150011","agent_2":"22.380005","agent_3":"6.447824"}
+[23:44:49 INFO]: [Monopoly] Game 9 finished, ActionCount: 474 (/5504), 44.245s (1game)
+[23:44:49 INFO]: [Monopoly] AI started now
+[23:45:38 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2027.0, 207, reward sum: 100.74192892473218
+	2: AI4 (4): 1394.0, 374, reward sum: 73.00499839554658
+	3: AI1 (1): 1350.0, 400, reward sum: 38.814629272393496
+	4: AI3 (3): 51.479999999999976, -31, reward sum: 20.61899246144899
+	bNwC: 314, reward value: 15.0, reward mean: 58.29513726353031
+[23:45:38 INFO]: [Monopoly] ranks of AI: [10, 5, 2, 3]
+ranks of randomizer: [0, 5, 8, 7]
+[23:45:38 INFO]: [Monopoly] Terminal Reward: {"agent_1":"3.656963","agent_4":"19.258076","agent_2":"33.973808","agent_3":"-14.113401"}
+[23:45:38 INFO]: [Monopoly] Game 10 finished, ActionCount: 656 (/6160), 48.341s (1game)
+[23:45:38 INFO]: [Monopoly] AI started now
+[23:46:57 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 3809.0, 1289, reward sum: 163.46872120982374
+	2: AI4 (4): 2064.0, 734, reward sum: 95.31405234809888
+	3: AI3 (3): 1818.0, 538, reward sum: 99.65107793068049
+	4: AI1 (1): -29.720000000000084, -141, reward sum: 30.928700514448643
+	bNwC: 319, reward value: 15.0, reward mean: 97.34063800076294
+[23:46:57 INFO]: [Monopoly] ranks of AI: [11, 6, 2, 3]
+ranks of randomizer: [0, 5, 9, 8]
+[23:46:57 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.414366","agent_4":"24.252490","agent_2":"47.780795","agent_3":"10.217925"}
+[23:46:57 INFO]: [Monopoly] Game 11 finished, ActionCount: 733 (/6893), 78.94s (1game)
+[23:46:57 INFO]: [Monopoly] AI started now
+[23:48:15 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2960.0, 670, reward sum: 142.06123750070535
+	2: AI2 (2): 2415.0, 995, reward sum: 104.46474099884463
+	3: AI1 (1): 1363.0, 233, reward sum: 84.04586728813082
+	4: AI3 (3): 117.2400000000001, -3, reward sum: 44.13430181069512
+	bNwC: 355, reward value: 15.0, reward mean: 93.67653689959398
+[23:48:15 INFO]: [Monopoly] ranks of AI: [12, 7, 2, 3]
+ranks of randomizer: [0, 5, 10, 9]
+[23:48:15 INFO]: [Monopoly] Terminal Reward: {"agent_1":"7.112702","agent_4":"41.087469","agent_2":"26.202699","agent_3":"-13.756298"}
+[23:48:15 INFO]: [Monopoly] Game 12 finished, ActionCount: 934 (/7827), 78.196s (1game)
+[23:48:15 INFO]: [Monopoly] AI started now
+[23:48:49 INFO]: [Monopoly] ranking:
+	1: AI3 (3): 2494.0, 1874, reward sum: 63.74734262208297
+	2: AI4 (4): 1509.0, 29, reward sum: 57.46734262208296
+	3: AI2 (2): 1430.0, 270, reward sum: 39.22107023060831
+	4: AI1 (1): 65.84, -48, reward sum: 20.72838512512156
+	bNwC: 292, reward value: 15.0, reward mean: 45.29103514997395
+[23:48:49 INFO]: [Monopoly] ranks of AI: [12, 8, 3, 3]
+ranks of randomizer: [1, 5, 10, 10]
+[23:48:49 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.963781","agent_4":"22.545616","agent_2":"5.235179","agent_3":"43.809074"}
+[23:48:49 INFO]: [Monopoly] Game 13 finished, ActionCount: 397 (/8224), 34.048s (1game)
+[23:48:49 INFO]: [Monopoly] AI started now
+[23:50:35 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 4174.0, 1864, reward sum: 263.94548901005174
+	2: AI2 (2): 2421.0, 341, reward sum: 225.18913300427
+	3: AI1 (1): 2296.0, 786, reward sum: 101.74381068192783
+	4: AI3 (3): -24.320000000000107, -96, reward sum: 50.13548538678199
+	bNwC: 362, reward value: 15.0, reward mean: 160.25347952075788
+[23:50:35 INFO]: [Monopoly] ranks of AI: [13, 9, 3, 3]
+ranks of randomizer: [1, 5, 11, 11]
+[23:50:35 INFO]: [Monopoly] Terminal Reward: {"agent_1":"10.796661","agent_4":"56.554864","agent_2":"36.542846","agent_3":"-14.646949"}
+[23:50:35 INFO]: [Monopoly] Game 14 finished, ActionCount: 1227 (/9451), 105.938s (1game)
+[23:50:35 INFO]: [Monopoly] AI started now
+[23:52:06 INFO]: [Monopoly] ranking:
+	1: AI3 (3): 3457.0, 1537, reward sum: 177.61262773567324
+	2: AI4 (4): 2675.0, 760, reward sum: 166.95462773567323
+	3: AI1 (1): 2135.0, 685, reward sum: 70.58436010902913
+	4: AI2 (2): 18.159999999999876, -102, reward sum: 57.27195787712628
+	bNwC: 358, reward value: 15.0, reward mean: 118.10589336437548
+[23:52:06 INFO]: [Monopoly] ranks of AI: [13, 10, 3, 4]
+ranks of randomizer: [2, 5, 12, 11]
+[23:52:06 INFO]: [Monopoly] Terminal Reward: {"agent_1":"9.809819","agent_4":"30.614621","agent_2":"-13.737804","agent_3":"87.574751"}
+[23:52:06 INFO]: [Monopoly] Game 15 finished, ActionCount: 924 (/10375), 90.992s (1game)
+[23:52:06 INFO]: [Monopoly] AI started now
+[23:52:38 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 1691.0, 141, reward sum: 79.32261292625424
+	2: AI3 (3): 1620.0, 490, reward sum: 51.369402975413806
+	3: AI4 (4): 1129.0, 109, reward sum: 42.010492767493375
+	4: AI1 (1): 62.200000000000045, -90, reward sum: 17.537197942913416
+	bNwC: 320, reward value: 15.0, reward mean: 47.55992665301871
+[23:52:38 INFO]: [Monopoly] ranks of AI: [14, 10, 4, 4]
+ranks of randomizer: [2, 6, 12, 12]
+[23:52:38 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.214717","agent_4":"3.203665","agent_2":"31.598419","agent_3":"20.821747"}
+[23:52:38 INFO]: [Monopoly] Game 16 finished, ActionCount: 411 (/10786), 31.763s (1game)
+[23:52:38 INFO]: [Monopoly] AI started now
+[23:53:29 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2174.0, 644, reward sum: 131.83886127338192
+	2: AI1 (1): 1519.0, 289, reward sum: 76.36353889980568
+	3: AI4 (4): 1464.0, 484, reward sum: 58.81011973080174
+	4: AI3 (3): 176.7599999999999, -22, reward sum: 74.046829176454
+	bNwC: 340, reward value: 15.0, reward mean: 85.26483727011083
+[23:53:29 INFO]: [Monopoly] ranks of AI: [15, 10, 5, 4]
+ranks of randomizer: [2, 7, 12, 13]
+[23:53:29 INFO]: [Monopoly] Terminal Reward: {"agent_1":"21.018076","agent_4":"4.297435","agent_2":"35.215748","agent_3":"-12.986556"}
+[23:53:29 INFO]: [Monopoly] Game 17 finished, ActionCount: 771 (/11557), 51.478s (1game)
+[23:53:29 INFO]: [Monopoly] AI started now
+[23:55:38 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 5161.0, 2191, reward sum: 214.04822306590103
+	2: AI3 (3): 2330.0, 915, reward sum: 160.96383424654883
+	3: AI1 (1): 1330.0, 560, reward sum: 85.20483947545858
+	4: AI2 (2): 46.200000000000045, -140, reward sum: 105.83889449341524
+	bNwC: 352, reward value: 15.0, reward mean: 141.51394782033094
+[23:55:38 INFO]: [Monopoly] ranks of AI: [16, 10, 5, 5]
+ranks of randomizer: [2, 8, 13, 13]
+[23:55:38 INFO]: [Monopoly] Terminal Reward: {"agent_1":"2.440000","agent_4":"59.896549","agent_2":"-13.398000","agent_3":"25.710000"}
+[23:55:38 INFO]: [Monopoly] Game 18 finished, ActionCount: 1854 (/13411), 128.979s (1game)
+[23:55:38 INFO]: [Monopoly] AI started now
+[23:56:21 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2290.0, 430, reward sum: 94.0231206923027
+	2: AI1 (1): 1650.0, 60, reward sum: 82.3431206923027
+	3: AI3 (3): 1235.0, 165, reward sum: 38.10223150317836
+	4: AI4 (4): 88.39999999999998, -5, reward sum: 30.502643986485275
+	bNwC: 320, reward value: 15.0, reward mean: 61.242779218567264
+[23:56:21 INFO]: [Monopoly] ranks of AI: [17, 10, 5, 6]
+ranks of randomizer: [2, 9, 14, 13]
+[23:56:21 INFO]: [Monopoly] Terminal Reward: {"agent_1":"23.613451","agent_4":"-14.030146","agent_2":"40.296586","agent_3":"3.875228"}
+[23:56:21 INFO]: [Monopoly] Game 19 finished, ActionCount: 545 (/13956), 42.591s (1game)
+[23:56:21 INFO]: [Monopoly] AI started now
+[23:57:23 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 3240.0, 1120, reward sum: 171.9519341619973
+	2: AI3 (3): 1951.0, 361, reward sum: 97.57920803884693
+	3: AI2 (2): 1292.0, 112, reward sum: 74.46348355568294
+	4: AI1 (1): 68.2400000000001, -78, reward sum: 42.824129136643904
+	bNwC: 320, reward value: 15.0, reward mean: 96.70468872329278
+[23:57:23 INFO]: [Monopoly] ranks of AI: [18, 10, 6, 6]
+ranks of randomizer: [2, 10, 14, 14]
+[23:57:23 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.798878","agent_4":"43.084567","agent_2":"4.807495","agent_3":"24.911127"}
+[23:57:23 INFO]: [Monopoly] Game 20 finished, ActionCount: 907 (/14863), 62.201s (1game)
+[23:57:23 INFO]: [Monopoly] AI started now
+[23:58:07 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2760.0, 700, reward sum: 112.32059734625685
+	2: AI1 (1): 1413.0, 53, reward sum: 69.04314375799865
+	3: AI4 (4): 1212.0, 82, reward sum: 78.04859734625686
+	4: AI3 (3): 71.0, -25, reward sum: 20.612277509103976
+	bNwC: 290, reward value: 15.0, reward mean: 70.00615398990408
+[23:58:07 INFO]: [Monopoly] ranks of AI: [19, 10, 7, 6]
+ranks of randomizer: [2, 11, 14, 15]
+[23:58:07 INFO]: [Monopoly] Terminal Reward: {"agent_1":"22.230819","agent_4":"17.213725","agent_2":"42.065181","agent_3":"-13.626717"}
+[23:58:07 INFO]: [Monopoly] Game 21 finished, ActionCount: 537 (/15400), 44.269s (1game)
+[23:58:07 INFO]: [Monopoly] AI started now
+[23:59:00 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2338.0, 778, reward sum: 101.00061663956389
+	2: AI1 (1): 2283.0, 1463, reward sum: 63.702753286503714
+	3: AI2 (2): 1803.0, 513, reward sum: 65.0848347461379
+	4: AI3 (3): 92.31999999999996, -29, reward sum: 41.021277225415105
+	bNwC: 360, reward value: 15.0, reward mean: 67.70237047440516
+[23:59:00 INFO]: [Monopoly] ranks of AI: [20, 10, 8, 6]
+ranks of randomizer: [2, 12, 14, 16]
+[23:59:00 INFO]: [Monopoly] Terminal Reward: {"agent_1":"21.604566","agent_4":"33.795155","agent_2":"7.536424","agent_3":"-13.509278"}
+[23:59:00 INFO]: [Monopoly] Game 22 finished, ActionCount: 763 (/16163), 52.768s (1game)
+[23:59:00 INFO]: [Monopoly] AI started now
+[23:59:48 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2500.0, 1050, reward sum: 113.3976109029463
+	2: AI1 (1): 1650.0, 270, reward sum: 76.5173944716896
+	3: AI3 (3): 932.0, 192, reward sum: 33.09680848572478
+	4: AI4 (4): 196.55999999999986, -32, reward sum: 66.8552109029463
+	bNwC: 319, reward value: 15.0, reward mean: 72.46675619082674
+[23:59:48 INFO]: [Monopoly] ranks of AI: [21, 10, 8, 7]
+ranks of randomizer: [2, 13, 15, 16]
+[23:59:48 INFO]: [Monopoly] Terminal Reward: {"agent_1":"22.453796","agent_4":"-12.349779","agent_2":"72.305364","agent_3":"0.721692"}
+[23:59:48 INFO]: [Monopoly] Game 23 finished, ActionCount: 505 (/16668), 48.446s (1game)
+[23:59:48 INFO]: [Monopoly] AI started now
+[00:01:42 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2636.0, 996, reward sum: 176.3397999067932
+	2: AI1 (1): 2519.0, 914, reward sum: 157.38197644712514
+	3: AI4 (4): 2335.0, 695, reward sum: 138.19364321105135
+	4: AI3 (3): -65.71999999999986, -291, reward sum: 83.24711998986716
+	bNwC: 340, reward value: 15.0, reward mean: 138.7906348887092
+[00:01:42 INFO]: [Monopoly] ranks of AI: [22, 10, 9, 7]
+ranks of randomizer: [2, 14, 15, 17]
+[00:01:42 INFO]: [Monopoly] Terminal Reward: {"agent_1":"28.006000","agent_4":"12.480000","agent_2":"35.384000","agent_3":"-9.835365"}
+[00:01:42 INFO]: [Monopoly] Game 24 finished, ActionCount: 1542 (/18210), 113.664s (1game)
+[00:01:42 INFO]: [Monopoly] AI started now
+[00:02:37 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2197.0, 297, reward sum: 116.81497168052024
+	2: AI4 (4): 1881.0, 601, reward sum: 74.8568853300759
+	3: AI1 (1): 1850.0, 1200, reward sum: 45.83422027855609
+	4: AI3 (3): 143.63999999999996, -8, reward sum: 68.11137168052024
+	bNwC: 294, reward value: 15.0, reward mean: 76.40436224241812
+[00:02:37 INFO]: [Monopoly] ranks of AI: [23, 11, 9, 7]
+ranks of randomizer: [2, 14, 16, 18]
+[00:02:37 INFO]: [Monopoly] Terminal Reward: {"agent_1":"3.852722","agent_4":"22.763824","agent_2":"52.497940","agent_3":"-11.088053"}
+[00:02:37 INFO]: [Monopoly] Game 25 finished, ActionCount: 803 (/19013), 55.06s (1game)
+[00:02:37 INFO]: [Monopoly] AI started now
+[00:03:45 INFO]: [Monopoly] ranking:
+	1: AI3 (3): 2639.0, 1249, reward sum: 111.60852384752926
+	2: AI4 (4): 2491.0, 891, reward sum: 88.74613429578991
+	3: AI1 (1): 2104.0, 844, reward sum: 86.18852384752925
+	4: AI2 (2): 170.32, -4, reward sum: 57.54473817932788
+	bNwC: 358, reward value: 15.0, reward mean: 86.02198004254407
+[00:03:45 INFO]: [Monopoly] ranks of AI: [23, 12, 9, 8]
+ranks of randomizer: [3, 14, 17, 18]
+[00:03:45 INFO]: [Monopoly] Terminal Reward: {"agent_1":"8.588513","agent_4":"27.985899","agent_2":"-12.755669","agent_3":"61.588299"}
+[00:03:45 INFO]: [Monopoly] Game 26 finished, ActionCount: 723 (/19736), 67.699s (1game)
+[00:03:45 INFO]: [Monopoly] AI started now
+[00:04:03 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 1824.0, 414, reward sum: 64.89574165907544
+	2: AI1 (1): 1594.0, 1244, reward sum: 26.56615380365674
+	3: AI3 (3): 1458.0, 818, reward sum: 16.19788515895177
+	4: AI2 (2): 103.3599999999998, -42, reward sum: 20.42534165907544
+	bNwC: 340, reward value: 15.0, reward mean: 32.021280570189845
+[00:04:03 INFO]: [Monopoly] ranks of AI: [24, 12, 9, 9]
+ranks of randomizer: [3, 15, 18, 18]
+[00:04:03 INFO]: [Monopoly] Terminal Reward: {"agent_1":"16.108975","agent_4":"41.584500","agent_2":"-12.808244","agent_3":"2.242785"}
+[00:04:03 INFO]: [Monopoly] Game 27 finished, ActionCount: 205 (/19941), 17.899s (1game)
+[00:04:03 INFO]: [Monopoly] AI started now
+[00:04:32 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2092.0, 672, reward sum: 76.56000925088136
+	2: AI4 (4): 1277.0, 607, reward sum: 38.537380621866845
+	3: AI3 (3): 735.0, 35, reward sum: 25.836967895920164
+	4: AI1 (1): 16.31999999999998, -154, reward sum: 30.75920925088136
+	bNwC: 290, reward value: 15.0, reward mean: 42.92339175488743
+[00:04:32 INFO]: [Monopoly] ranks of AI: [25, 13, 9, 9]
+ranks of randomizer: [3, 15, 19, 19]
+[00:04:32 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-12.988179","agent_4":"16.680722","agent_2":"40.183248","agent_3":"-0.305181"}
+[00:04:32 INFO]: [Monopoly] Game 28 finished, ActionCount: 397 (/20338), 29.381s (1game)
+[00:04:32 INFO]: [Monopoly] AI started now
+[00:05:19 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2108.0, 248, reward sum: 122.09761722118516
+	2: AI3 (3): 1730.0, 490, reward sum: 71.55922111413634
+	3: AI4 (4): 1455.0, 5, reward sum: 60.31083529701951
+	4: AI1 (1): 75.4399999999999, -118, reward sum: 73.96801722118516
+	bNwC: 378, reward value: 15.0, reward mean: 81.98392271338153
+[00:05:19 INFO]: [Monopoly] ranks of AI: [26, 13, 10, 9]
+ranks of randomizer: [3, 16, 19, 20]
+[00:05:19 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-9.419210","agent_4":"7.087237","agent_2":"66.879813","agent_3":"21.923203"}
+[00:05:19 INFO]: [Monopoly] Game 29 finished, ActionCount: 522 (/20860), 46.67s (1game)
+[00:05:19 INFO]: [Monopoly] AI started now
+[00:07:37 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 4994.0, 1354, reward sum: 434.0204076192632
+	2: AI2 (2): 1731.0, 201, reward sum: 157.00793336169153
+	3: AI1 (1): 1697.0, 137, reward sum: 146.99087526433493
+	4: AI3 (3): 100.08, -1, reward sum: 96.06417096812108
+	bNwC: 334, reward value: 15.0, reward mean: 208.5208468033527
+[00:07:37 INFO]: [Monopoly] ranks of AI: [27, 14, 10, 9]
+ranks of randomizer: [3, 16, 20, 21]
+[00:07:37 INFO]: [Monopoly] Terminal Reward: {"agent_1":"16.808466","agent_4":"87.116890","agent_2":"24.004000","agent_3":"-14.043200"}
+[00:07:37 INFO]: [Monopoly] Game 30 finished, ActionCount: 1617 (/22477), 138.326s (1game)
+[00:07:37 INFO]: [Monopoly] AI started now
+[00:08:58 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 3434.0, 1094, reward sum: 256.582545792183
+	2: AI1 (1): 2490.0, 840, reward sum: 97.92899637365106
+	3: AI2 (2): 1812.0, 932, reward sum: 61.871924055879404
+	4: AI3 (3): -26.719999999999857, -216, reward sum: 102.15437624090374
+	bNwC: 356, reward value: 15.0, reward mean: 129.6344606156543
+[00:08:58 INFO]: [Monopoly] ranks of AI: [28, 14, 11, 9]
+ranks of randomizer: [3, 17, 20, 22]
+[00:08:58 INFO]: [Monopoly] Terminal Reward: {"agent_1":"27.486283","agent_4":"70.612410","agent_2":"5.082490","agent_3":"-12.192888"}
+[00:08:58 INFO]: [Monopoly] Game 31 finished, ActionCount: 950 (/23427), 81.365s (1game)
+[00:08:58 INFO]: [Monopoly] AI started now
+[00:09:55 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 3086.0, 626, reward sum: 141.16631842927217
+	2: AI3 (3): 1732.0, 362, reward sum: 74.04157927904394
+	3: AI1 (1): 1359.0, 459, reward sum: 47.904958188729545
+	4: AI2 (2): 89.7599999999999, -22, reward sum: 49.11543608110772
+	bNwC: 356, reward value: 15.0, reward mean: 78.05707299453834
+[00:09:55 INFO]: [Monopoly] ranks of AI: [29, 14, 11, 10]
+ranks of randomizer: [3, 18, 21, 22]
+[00:09:55 INFO]: [Monopoly] Terminal Reward: {"agent_1":"3.394853","agent_4":"42.703942","agent_2":"-13.460830","agent_3":"22.716364"}
+[00:09:55 INFO]: [Monopoly] Game 32 finished, ActionCount: 711 (/24138), 56.173s (1game)
+[00:09:55 INFO]: [Monopoly] AI started now
+[00:10:26 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2050.0, 1060, reward sum: 62.69497641245408
+	2: AI1 (1): 1638.0, 818, reward sum: 39.1929295903863
+	3: AI4 (4): 1504.0, 334, reward sum: 39.09097641245408
+	4: AI3 (3): 100.35999999999981, -17, reward sum: 12.548783343856059
+	bNwC: 360, reward value: 15.0, reward mean: 38.38191643978763
+[00:10:26 INFO]: [Monopoly] ranks of AI: [30, 14, 12, 10]
+ranks of randomizer: [3, 19, 21, 23]
+[00:10:26 INFO]: [Monopoly] Terminal Reward: {"agent_1":"19.031997","agent_4":"5.625726","agent_2":"31.953546","agent_3":"-13.834324"}
+[00:10:26 INFO]: [Monopoly] Game 33 finished, ActionCount: 302 (/24440), 31.032s (1game)
+[00:10:26 INFO]: [Monopoly] AI started now
+[00:11:29 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2457.0, 397, reward sum: 134.26046143598512
+	2: AI2 (2): 2335.0, 655, reward sum: 123.9924614359851
+	3: AI3 (3): 1526.0, 236, reward sum: 55.826602465555126
+	4: AI1 (1): 98.04000000000005, -13, reward sum: 37.84553859558902
+	bNwC: 360, reward value: 15.0, reward mean: 87.98126598327859
+[00:11:29 INFO]: [Monopoly] ranks of AI: [31, 15, 12, 10]
+ranks of randomizer: [3, 19, 22, 24]
+[00:11:29 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.884034","agent_4":"46.181963","agent_2":"27.421338","agent_3":"6.883198"}
+[00:11:29 INFO]: [Monopoly] Game 34 finished, ActionCount: 703 (/25143), 63.846s (1game)
+[00:11:29 INFO]: [Monopoly] AI started now
+[00:13:49 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 4880.0, 1755, reward sum: 326.92747107720584
+	2: AI2 (2): 3370.0, 1350, reward sum: 138.17955437861823
+	3: AI3 (3): 2115.0, 675, reward sum: 92.08703466685517
+	4: AI1 (1): -146.0, -300, reward sum: 67.01208098773964
+	bNwC: 332, reward value: 15.0, reward mean: 156.05153527760473
+[00:13:49 INFO]: [Monopoly] ranks of AI: [32, 16, 12, 10]
+ranks of randomizer: [3, 19, 23, 25]
+[00:13:49 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.717600","agent_4":"88.968041","agent_2":"36.835835","agent_3":"9.600000"}
+[00:13:49 INFO]: [Monopoly] Game 35 finished, ActionCount: 1826 (/26969), 139.346s (1game)
+[00:13:49 INFO]: [Monopoly] AI started now
+[00:14:22 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2360.0, 770, reward sum: 87.09251826348435
+	2: AI1 (1): 1470.0, 890, reward sum: 42.335660841353
+	3: AI2 (2): 1325.0, 495, reward sum: 28.45636836639263
+	4: AI3 (3): 80.60000000000002, -20, reward sum: 14.342569313107875
+	bNwC: 360, reward value: 15.0, reward mean: 43.05677919608446
+[00:14:22 INFO]: [Monopoly] ranks of AI: [33, 16, 13, 10]
+ranks of randomizer: [3, 20, 23, 26]
+[00:14:22 INFO]: [Monopoly] Terminal Reward: {"agent_1":"16.913692","agent_4":"34.147497","agent_2":"2.833692","agent_3":"-14.018691"}
+[00:14:22 INFO]: [Monopoly] Game 36 finished, ActionCount: 376 (/27345), 33.445s (1game)
+[00:14:22 INFO]: [Monopoly] AI started now
+[00:14:57 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 1934.0, 504, reward sum: 65.63929788378013
+	2: AI4 (4): 1892.0, 1422, reward sum: 35.76101473076017
+	3: AI2 (2): 1048.0, 148, reward sum: 27.97999548317214
+	4: AI3 (3): 91.91999999999987, -24, reward sum: 20.386497883780127
+	bNwC: 252, reward value: 15.0, reward mean: 37.44170149537314
+[00:14:57 INFO]: [Monopoly] ranks of AI: [33, 17, 14, 10]
+ranks of randomizer: [4, 20, 23, 27]
+[00:14:57 INFO]: [Monopoly] Terminal Reward: {"agent_1":"40.314371","agent_4":"17.940409","agent_2":"2.163413","agent_3":"-13.024901"}
+[00:14:57 INFO]: [Monopoly] Game 37 finished, ActionCount: 268 (/27613), 34.695s (1game)
+[00:14:57 INFO]: [Monopoly] AI started now
+[00:15:36 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2534.0, 714, reward sum: 90.3816145399938
+	2: AI3 (3): 1724.0, 1134, reward sum: 52.470649150481336
+	3: AI1 (1): 1239.0, 109, reward sum: 45.04010836374436
+	4: AI4 (4): 154.95999999999995, -12, reward sum: 40.94721453999381
+	bNwC: 320, reward value: 15.0, reward mean: 57.209896648553325
+[00:15:36 INFO]: [Monopoly] ranks of AI: [34, 17, 14, 11]
+ranks of randomizer: [4, 21, 24, 27]
+[00:15:36 INFO]: [Monopoly] Terminal Reward: {"agent_1":"4.325724","agent_4":"-12.869804","agent_2":"42.956005","agent_3":"18.430177"}
+[00:15:36 INFO]: [Monopoly] Game 38 finished, ActionCount: 381 (/27994), 38.995s (1game)
+[00:15:36 INFO]: [Monopoly] AI started now
+[00:17:02 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 3164.0, 1184, reward sum: 167.5184811266403
+	2: AI2 (2): 2571.0, 271, reward sum: 159.5664811266403
+	3: AI1 (1): 2507.0, 1057, reward sum: 97.23546982231784
+	4: AI3 (3): 90.35999999999993, -17, reward sum: 85.13071468061491
+	bNwC: 320, reward value: 15.0, reward mean: 127.36278668905334
+[00:17:02 INFO]: [Monopoly] ranks of AI: [35, 18, 14, 11]
+ranks of randomizer: [4, 21, 25, 28]
+[00:17:02 INFO]: [Monopoly] Terminal Reward: {"agent_1":"11.345922","agent_4":"43.157284","agent_2":"32.491203","agent_3":"-13.096747"}
+[00:17:02 INFO]: [Monopoly] Game 39 finished, ActionCount: 1075 (/29069), 86.242s (1game)
+[00:17:02 INFO]: [Monopoly] AI started now
+[00:18:04 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 3503.0, 523, reward sum: 190.6792978205991
+	2: AI2 (2): 1605.0, 275, reward sum: 91.08230382897571
+	3: AI3 (3): 1422.0, 602, reward sum: 44.830879638346815
+	4: AI1 (1): 81.39999999999998, -5, reward sum: 39.86417671435228
+	bNwC: 356, reward value: 15.0, reward mean: 91.61416450056848
+[00:18:04 INFO]: [Monopoly] ranks of AI: [36, 19, 14, 11]
+ranks of randomizer: [4, 21, 26, 29]
+[00:18:04 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.056242","agent_4":"49.800246","agent_2":"22.400853","agent_3":"3.190237"}
+[00:18:04 INFO]: [Monopoly] Game 40 finished, ActionCount: 749 (/29818), 61.546s (1game)
+[00:18:04 INFO]: [Monopoly] AI started now
+[00:18:59 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2489.0, 1029, reward sum: 153.76763809643097
+	2: AI4 (4): 2220.0, 460, reward sum: 146.99163809643096
+	3: AI3 (3): 2028.0, 668, reward sum: 60.51190440671732
+	4: AI1 (1): 143.16, -2, reward sum: 21.036234980078316
+	bNwC: 338, reward value: 15.0, reward mean: 95.5768538949144
+[00:18:59 INFO]: [Monopoly] ranks of AI: [37, 20, 14, 11]
+ranks of randomizer: [4, 21, 27, 30]
+[00:18:59 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.505450","agent_4":"37.922476","agent_2":"93.822571","agent_3":"8.835844"}
+[00:18:59 INFO]: [Monopoly] Game 41 finished, ActionCount: 598 (/30416), 55.194s (1game)
+[00:18:59 INFO]: [Monopoly] AI started now
+[00:19:12 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 1524.0, 1204, reward sum: 34.155235955890845
+	2: AI1 (1): 1470.0, 850, reward sum: 25.051002640452584
+	3: AI3 (3): 1368.0, 888, reward sum: 5.969100555931622
+	4: AI2 (2): 82.95999999999995, -62, reward sum: -2.6591640441091524
+	bNwC: 319, reward value: 15.0, reward mean: 15.629043777041474
+[00:19:12 INFO]: [Monopoly] ranks of AI: [38, 20, 14, 12]
+ranks of randomizer: [4, 22, 28, 30]
+[00:19:12 INFO]: [Monopoly] Terminal Reward: {"agent_1":"17.199663","agent_4":"28.089789","agent_2":"-13.753820","agent_3":"0.936343"}
+[00:19:12 INFO]: [Monopoly] Game 42 finished, ActionCount: 109 (/30525), 13.242s (1game)
+[00:19:12 INFO]: [Monopoly] AI started now
+[00:20:02 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2665.0, 435, reward sum: 137.60344492162963
+	2: AI2 (2): 1782.0, 262, reward sum: 103.86173444634434
+	3: AI3 (3): 1427.0, 287, reward sum: 52.05751051581262
+	4: AI1 (1): 68.71999999999994, -34, reward sum: 31.293170785093537
+	bNwC: 320, reward value: 15.0, reward mean: 81.20396516722003
+[00:20:02 INFO]: [Monopoly] ranks of AI: [39, 21, 14, 12]
+ranks of randomizer: [4, 22, 29, 31]
+[00:20:02 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.192078","agent_4":"39.544076","agent_2":"23.848950","agent_3":"5.106853"}
+[00:20:02 INFO]: [Monopoly] Game 43 finished, ActionCount: 799 (/31324), 50.27s (1game)
+[00:20:03 INFO]: [Monopoly] AI started now
+[00:21:37 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 4732.0, 1462, reward sum: 223.558947878395
+	2: AI3 (3): 1829.0, 359, reward sum: 138.23930559044882
+	3: AI2 (2): 1399.0, 439, reward sum: 77.28279917852466
+	4: AI1 (1): 57.19999999999993, -40, reward sum: 62.01492034065154
+	bNwC: 319, reward value: 15.0, reward mean: 125.273993247005
+[00:21:37 INFO]: [Monopoly] ranks of AI: [40, 21, 15, 12]
+ranks of randomizer: [4, 23, 29, 32]
+[00:21:37 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.156404","agent_4":"57.417810","agent_2":"3.921897","agent_3":"25.984931"}
+[00:21:37 INFO]: [Monopoly] Game 44 finished, ActionCount: 1179 (/32503), 94.42s (1game)
+[00:21:37 INFO]: [Monopoly] AI started now
+[00:22:15 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2054.0, 104, reward sum: 103.52417799377898
+	2: AI2 (2): 1897.0000000000002, 1497, reward sum: 38.69630855134092
+	3: AI1 (1): 1632.0, 452, reward sum: 34.84691490500852
+	4: AI3 (3): 50.040000000000035, -138, reward sum: 37.86573942636046
+	bNwC: 322, reward value: 15.0, reward mean: 53.73328521912222
+[00:22:15 INFO]: [Monopoly] ranks of AI: [41, 22, 15, 12]
+ranks of randomizer: [4, 23, 30, 33]
+[00:22:15 INFO]: [Monopoly] Terminal Reward: {"agent_1":"6.219726","agent_4":"35.556543","agent_2":"17.539283","agent_3":"-12.244004"}
+[00:22:15 INFO]: [Monopoly] Game 45 finished, ActionCount: 373 (/32876), 38.265s (1game)
+[00:22:15 INFO]: [Monopoly] AI started now
+[00:22:57 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2295.0, 885, reward sum: 107.73852219929005
+	2: AI2 (2): 1700.0, 890, reward sum: 46.74308939324244
+	3: AI3 (3): 1493.0, 13, reward sum: 44.470605093693706
+	4: AI4 (4): 137.2400000000001, -28, reward sum: 61.63892219929005
+	bNwC: 320, reward value: 15.0, reward mean: 65.14778472137905
+[00:22:57 INFO]: [Monopoly] ranks of AI: [41, 23, 15, 13]
+ranks of randomizer: [5, 23, 31, 33]
+[00:22:57 INFO]: [Monopoly] Terminal Reward: {"agent_1":"75.464643","agent_4":"-9.581542","agent_2":"19.214177","agent_3":"7.421200"}
+[00:22:57 INFO]: [Monopoly] Game 46 finished, ActionCount: 485 (/33361), 41.356s (1game)
+[00:22:57 INFO]: [Monopoly] AI started now
+[00:24:53 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 4980.0, 2790, reward sum: 302.5097737612964
+	2: AI1 (1): 1751.0, 321, reward sum: 128.47868266782814
+	3: AI3 (3): 1237.0, 367, reward sum: 79.26561268343778
+	4: AI4 (4): 167.43999999999966, -68, reward sum: 113.58831455170011
+	bNwC: 320, reward value: 15.0, reward mean: 155.9605959160656
+[00:24:53 INFO]: [Monopoly] ranks of AI: [42, 23, 15, 14]
+ranks of randomizer: [5, 24, 32, 33]
+[00:24:53 INFO]: [Monopoly] Terminal Reward: {"agent_1":"23.945060","agent_4":"-11.934057","agent_2":"76.260803","agent_3":"2.696482"}
+[00:24:53 INFO]: [Monopoly] Game 47 finished, ActionCount: 1349 (/34710), 116.855s (1game)
+[00:24:53 INFO]: [Monopoly] AI started now
+[00:25:30 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2484.0, 194, reward sum: 105.53402683806085
+	2: AI3 (3): 1639.0, 939, reward sum: 46.42711924273497
+	3: AI1 (1): 1102.0, 322, reward sum: 23.728562695547986
+	4: AI2 (2): 117.39999999999986, -30, reward sum: 30.58382914105559
+	bNwC: 336, reward value: 15.0, reward mean: 51.568384479349845
+[00:25:30 INFO]: [Monopoly] ranks of AI: [43, 23, 15, 15]
+ranks of randomizer: [5, 25, 33, 33]
+[00:25:30 INFO]: [Monopoly] Terminal Reward: {"agent_1":"1.640237","agent_4":"39.672886","agent_2":"-13.571662","agent_3":"18.315667"}
+[00:25:30 INFO]: [Monopoly] Game 48 finished, ActionCount: 537 (/35247), 36.775s (1game)
+[00:25:30 INFO]: [Monopoly] AI started now
+[00:25:56 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 1810.0, 1080, reward sum: 53.041645056980094
+	2: AI4 (4): 1558.0, 238, reward sum: 48.0736450569801
+	3: AI3 (3): 678.0, 78, reward sum: 16.32088696245578
+	4: AI1 (1): 105.08000000000011, -26, reward sum: 9.09558959664215
+	bNwC: 308, reward value: 15.0, reward mean: 31.63294166826453
+[00:25:56 INFO]: [Monopoly] ranks of AI: [44, 24, 15, 15]
+ranks of randomizer: [5, 25, 34, 34]
+[00:25:56 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.728554","agent_4":"21.832246","agent_2":"36.327532","agent_3":"-1.129459"}
+[00:25:56 INFO]: [Monopoly] Game 49 finished, ActionCount: 277 (/35524), 25.474s (1game)
+[00:25:56 INFO]: [Monopoly] AI started now
+[00:27:31 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 3372.0, 1442, reward sum: 200.18812638423884
+	2: AI3 (3): 2586.0, 886, reward sum: 118.4481663498487
+	3: AI2 (2): 1473.0, 623, reward sum: 83.36421862003294
+	4: AI1 (1): 91.28000000000014, -141, reward sum: 146.87892638423887
+	bNwC: 289, reward value: 15.0, reward mean: 137.21985943458984
+[00:27:31 INFO]: [Monopoly] ranks of AI: [45, 24, 16, 15]
+ranks of randomizer: [5, 26, 34, 35]
+[00:27:31 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-12.405141","agent_4":"59.269097","agent_2":"3.514917","agent_3":"28.087631"}
+[00:27:31 INFO]: [Monopoly] Game 50 finished, ActionCount: 1386 (/36910), 95.744s (1game)
+[00:27:31 INFO]: [Monopoly] AI started now
+[00:28:19 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2556.0, 816, reward sum: 106.50091890563951
+	2: AI4 (4): 2055.0, 495, reward sum: 78.02482925842187
+	3: AI1 (1): 1823.0, 653, reward sum: 38.04568968710758
+	4: AI3 (3): 108.5199999999998, -19, reward sum: 38.950131430492675
+	bNwC: 318, reward value: 15.0, reward mean: 65.38039232041541
+[00:28:19 INFO]: [Monopoly] ranks of AI: [46, 25, 16, 15]
+ranks of randomizer: [5, 26, 35, 36]
+[00:28:19 INFO]: [Monopoly] Terminal Reward: {"agent_1":"6.866005","agent_4":"25.142389","agent_2":"35.768495","agent_3":"-12.889563"}
+[00:28:19 INFO]: [Monopoly] Game 51 finished, ActionCount: 641 (/37551), 47.896s (1game)
+[00:28:19 INFO]: [Monopoly] AI started now
+[00:29:05 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2263.0, 453, reward sum: 99.64965733726962
+	2: AI1 (1): 1696.0, 626, reward sum: 56.19423030678566
+	3: AI4 (4): 1669.0, 549, reward sum: 44.742042385373345
+	4: AI3 (3): 92.2400000000001, -28, reward sum: 49.9031490258789
+	bNwC: 306, reward value: 15.0, reward mean: 62.62226976382688
+[00:29:05 INFO]: [Monopoly] ranks of AI: [47, 25, 17, 15]
+ranks of randomizer: [5, 27, 35, 37]
+[00:29:05 INFO]: [Monopoly] Terminal Reward: {"agent_1":"20.764554","agent_4":"5.948879","agent_2":"35.011997","agent_3":"-5.600981"}
+[00:29:05 INFO]: [Monopoly] Game 52 finished, ActionCount: 536 (/38087), 45.491s (1game)
+[00:29:05 INFO]: [Monopoly] AI started now
+[00:29:32 INFO]: [Monopoly] ranking:
+	1: AI3 (3): 1732.0, 852, reward sum: 67.2551482978908
+	2: AI4 (4): 1665.0, 115, reward sum: 59.131244129212476
+	3: AI1 (1): 1557.0000000000002, 1357, reward sum: 17.6442755328899
+	4: AI2 (2): 32.919999999999995, -74, reward sum: 25.820348297890792
+	bNwC: 280, reward value: 15.0, reward mean: 42.46275406447099
+[00:29:32 INFO]: [Monopoly] ranks of AI: [47, 26, 17, 16]
+ranks of randomizer: [6, 27, 36, 37]
+[00:29:32 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-0.014742","agent_4":"23.612005","agent_2":"-13.748759","agent_3":"45.048358"}
+[00:29:32 INFO]: [Monopoly] Game 53 finished, ActionCount: 331 (/38418), 27.607s (1game)
+[00:29:32 INFO]: [Monopoly] AI started now
+[00:30:57 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2671.0, 1261, reward sum: 155.3989092426112
+	2: AI1 (1): 2554.0, 474, reward sum: 151.4509092426112
+	3: AI3 (3): 2180.0, 430, reward sum: 111.61526695726309
+	4: AI4 (4): 22.47999999999996, -106, reward sum: 71.99032972973933
+	bNwC: 340, reward value: 15.0, reward mean: 122.6138537930562
+[00:30:57 INFO]: [Monopoly] ranks of AI: [48, 26, 17, 17]
+ranks of randomizer: [6, 28, 37, 37]
+[00:30:57 INFO]: [Monopoly] Terminal Reward: {"agent_1":"33.401829","agent_4":"-14.084963","agent_2":"58.153014","agent_3":"12.348586"}
+[00:30:57 INFO]: [Monopoly] Game 54 finished, ActionCount: 1026 (/39444), 84.282s (1game)
+[00:30:57 INFO]: [Monopoly] AI started now
+[00:31:39 INFO]: [Monopoly] ranking:
+	1: AI3 (3): 1492.0, 352, reward sum: 74.87287670523318
+	2: AI2 (2): 1427.0, 217, reward sum: 67.53287670523319
+	3: AI1 (1): 1218.0, 258, reward sum: 41.16450724479082
+	4: AI4 (4): 42.7599999999999, -72, reward sum: 21.43464081563485
+	bNwC: 320, reward value: 15.0, reward mean: 51.25122536772301
+[00:31:39 INFO]: [Monopoly] ranks of AI: [48, 27, 17, 18]
+ranks of randomizer: [7, 28, 38, 37]
+[00:31:39 INFO]: [Monopoly] Terminal Reward: {"agent_1":"3.184879","agent_4":"-14.100754","agent_2":"20.528621","agent_3":"52.039797"}
+[00:31:39 INFO]: [Monopoly] Game 55 finished, ActionCount: 511 (/39955), 41.795s (1game)
+[00:31:39 INFO]: [Monopoly] AI started now
+[00:32:03 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 1885.0, 725, reward sum: 75.47241368603065
+	2: AI4 (4): 1497.0, 147, reward sum: 67.56041368603064
+	3: AI1 (1): 1284.0, 24, reward sum: 31.494573524135802
+	4: AI3 (3): 38.87999999999995, -36, reward sum: 2.085193760186028
+	bNwC: 320, reward value: 15.0, reward mean: 44.15314866409578
+[00:32:03 INFO]: [Monopoly] ranks of AI: [49, 28, 17, 18]
+ranks of randomizer: [7, 28, 39, 38]
+[00:32:03 INFO]: [Monopoly] Terminal Reward: {"agent_1":"5.294375","agent_4":"28.149759","agent_2":"49.671385","agent_3":"-14.352478"}
+[00:32:03 INFO]: [Monopoly] Game 56 finished, ActionCount: 292 (/40247), 24.495s (1game)
+[00:32:03 INFO]: [Monopoly] AI started now
+[00:32:55 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2169.0, 419, reward sum: 112.1779677399816
+	2: AI4 (4): 1762.0, 292, reward sum: 78.04534240992683
+	3: AI3 (3): 1461.0, 801, reward sum: 35.83732889501807
+	4: AI1 (1): 136.16, -27, reward sum: 28.961432394850306
+	bNwC: 358, reward value: 15.0, reward mean: 63.7555178599442
+[00:32:55 INFO]: [Monopoly] ranks of AI: [50, 29, 17, 18]
+ranks of randomizer: [7, 28, 40, 39]
+[00:32:55 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.421496","agent_4":"23.468950","agent_2":"34.291115","agent_3":"2.362541"}
+[00:32:55 INFO]: [Monopoly] Game 57 finished, ActionCount: 589 (/40836), 52.143s (1game)
+[00:32:55 INFO]: [Monopoly] AI started now
+[00:33:58 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 3087.0, 207, reward sum: 173.2862144455674
+	2: AI1 (1): 1728.0, 938, reward sum: 66.35495720020727
+	3: AI3 (3): 1501.0, 651, reward sum: 57.680839923766435
+	4: AI2 (2): 32.47999999999996, -156, reward sum: 101.85365321966643
+	bNwC: 336, reward value: 15.0, reward mean: 99.79391619730188
+[00:33:58 INFO]: [Monopoly] ranks of AI: [51, 29, 17, 19]
+ranks of randomizer: [7, 29, 41, 39]
+[00:33:58 INFO]: [Monopoly] Terminal Reward: {"agent_1":"19.207945","agent_4":"45.644132","agent_2":"-12.723765","agent_3":"4.119051"}
+[00:33:58 INFO]: [Monopoly] Game 58 finished, ActionCount: 779 (/41615), 62.762s (1game)
+[00:33:58 INFO]: [Monopoly] AI started now
+[00:34:50 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2552.0, 552, reward sum: 112.56940735126183
+	2: AI1 (1): 1329.0, 49, reward sum: 64.83998794380994
+	3: AI3 (3): 1191.0, 41, reward sum: 48.19509796274636
+	4: AI2 (2): 73.55999999999986, -57, reward sum: 61.43900735126183
+	bNwC: 320, reward value: 15.0, reward mean: 71.76087515226999
+[00:34:50 INFO]: [Monopoly] ranks of AI: [52, 29, 17, 20]
+ranks of randomizer: [7, 30, 42, 39]
+[00:34:50 INFO]: [Monopoly] Terminal Reward: {"agent_1":"20.564208","agent_4":"44.247056","agent_2":"-13.875278","agent_3":"4.230925"}
+[00:34:50 INFO]: [Monopoly] Game 59 finished, ActionCount: 703 (/42318), 51.876s (1game)
+[00:34:50 INFO]: [Monopoly] AI started now
+[00:37:22 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 6044.0, 3094, reward sum: 286.27089108552275
+	2: AI4 (4): 4006.0, 2186, reward sum: 187.60028145004105
+	3: AI1 (1): 1785.0, 745, reward sum: 106.58476660829943
+	4: AI3 (3): -118.0, -300, reward sum: 94.80640606280286
+	bNwC: 360, reward value: 15.0, reward mean: 168.81558630166654
+[00:37:22 INFO]: [Monopoly] ranks of AI: [53, 30, 17, 20]
+ranks of randomizer: [7, 30, 43, 40]
+[00:37:22 INFO]: [Monopoly] Terminal Reward: {"agent_1":"5.908642","agent_4":"34.920721","agent_2":"63.359025","agent_3":"-11.714923"}
+[00:37:22 INFO]: [Monopoly] Game 60 finished, ActionCount: 1354 (/43672), 152.246s (1game)
+[00:37:22 INFO]: [Monopoly] AI started now
+[00:38:37 INFO]: [Monopoly] ranking:
+	1: AI3 (3): 2356.0, 796, reward sum: 200.77524635368167
+	2: AI4 (4): 2309.0, 79, reward sum: 150.49854064909204
+	3: AI1 (1): 2095.0, 1425, reward sum: 63.789784052030306
+	4: AI2 (2): 39.799999999999955, -110, reward sum: 153.04924635368167
+	bNwC: 320, reward value: 15.0, reward mean: 142.0282043521214
+[00:38:37 INFO]: [Monopoly] ranks of AI: [53, 31, 17, 21]
+ranks of randomizer: [8, 30, 44, 40]
+[00:38:37 INFO]: [Monopoly] Terminal Reward: {"agent_1":"4.952722","agent_4":"30.267596","agent_2":"-6.652803","agent_3":"127.700911"}
+[00:38:37 INFO]: [Monopoly] Game 61 finished, ActionCount: 1115 (/44787), 75.046s (1game)
+[00:38:37 INFO]: [Monopoly] AI started now
+[00:42:59 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 6332.0, 4112, reward sum: 272.6457578419664
+	2: AI4 (4): 4508.0, 2168, reward sum: 258.56975784196635
+	3: AI1 (1): 2941.0, 1001, reward sum: 153.6090399826063
+	4: AI3 (3): 85.08, -26, reward sum: 86.25850394117936
+	bNwC: 320, reward value: 15.0, reward mean: 192.77076490192957
+[00:42:59 INFO]: [Monopoly] ranks of AI: [54, 32, 17, 21]
+ranks of randomizer: [8, 30, 45, 41]
+[00:42:59 INFO]: [Monopoly] Terminal Reward: {"agent_1":"19.979835","agent_4":"71.242428","agent_2":"149.170213","agent_3":"-11.365283"}
+[00:42:59 INFO]: [Monopoly] Game 62 finished, ActionCount: 2582 (/47369), 261.893s (1game)
+[00:42:59 INFO]: [Monopoly] AI started now
+[00:43:42 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2778.0, 108, reward sum: 118.39626067222972
+	2: AI3 (3): 1901.0, 911, reward sum: 51.270872117235555
+	3: AI1 (1): 1126.0, 286, reward sum: 50.68412701973266
+	4: AI2 (2): 55.399999999999864, -80, reward sum: 35.51405852529338
+	bNwC: 320, reward value: 15.0, reward mean: 63.96632958362283
+[00:43:42 INFO]: [Monopoly] ranks of AI: [55, 32, 17, 22]
+ranks of randomizer: [8, 31, 46, 41]
+[00:43:42 INFO]: [Monopoly] Terminal Reward: {"agent_1":"4.925748","agent_4":"43.180475","agent_2":"-13.911354","agent_3":"21.100586"}
+[00:43:42 INFO]: [Monopoly] Game 63 finished, ActionCount: 457 (/47826), 43.09s (1game)
+[00:43:42 INFO]: [Monopoly] AI started now
+[00:46:14 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 4322.0, 862, reward sum: 229.1942176763525
+	2: AI3 (3): 2239.0, 749, reward sum: 157.0804617958638
+	3: AI1 (1): 1311.0, 171, reward sum: 116.56992056812038
+	4: AI4 (4): 172.79999999999995, -35, reward sum: 136.8965881654222
+	bNwC: 352, reward value: 15.0, reward mean: 159.9352970514397
+[00:46:14 INFO]: [Monopoly] ranks of AI: [56, 32, 17, 23]
+ranks of randomizer: [8, 32, 47, 41]
+[00:46:14 INFO]: [Monopoly] Terminal Reward: {"agent_1":"4.584000","agent_4":"-9.031165","agent_2":"59.361752","agent_3":"30.909752"}
+[00:46:14 INFO]: [Monopoly] Game 64 finished, ActionCount: 1630 (/49456), 151.771s (1game)
+[00:46:14 INFO]: [Monopoly] AI started now
+[00:47:21 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2569.0, 489, reward sum: 142.8993049522243
+	2: AI4 (4): 1949.0, 159, reward sum: 93.11773922880879
+	3: AI3 (3): 1351.0, 291, reward sum: 57.905372790516154
+	4: AI1 (1): 109.71999999999984, -9, reward sum: 68.90782681957064
+	bNwC: 320, reward value: 15.0, reward mean: 90.70756094777997
+[00:47:21 INFO]: [Monopoly] ranks of AI: [57, 33, 17, 23]
+ranks of randomizer: [8, 32, 48, 42]
+[00:47:21 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-11.084330","agent_4":"26.530566","agent_2":"38.311363","agent_3":"4.319460"}
+[00:47:21 INFO]: [Monopoly] Game 65 finished, ActionCount: 804 (/50260), 67.589s (1game)
+[00:47:22 INFO]: [Monopoly] AI started now
+[00:49:30 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 5172.0, 2082, reward sum: 246.28250359414835
+	2: AI3 (3): 2633.0, 2053, reward sum: 82.22245742817078
+	3: AI1 (1): 980.0, 170, reward sum: 94.06645626350783
+	4: AI2 (2): 49.59999999999991, -170, reward sum: 166.7665768372282
+	bNwC: 320, reward value: 15.0, reward mean: 147.3344985307638
+[00:49:30 INFO]: [Monopoly] ranks of AI: [58, 33, 17, 24]
+ranks of randomizer: [8, 33, 49, 42]
+[00:49:30 INFO]: [Monopoly] Terminal Reward: {"agent_1":"1.392722","agent_4":"57.042046","agent_2":"-12.992272","agent_3":"21.563596"}
+[00:49:30 INFO]: [Monopoly] Game 66 finished, ActionCount: 1152 (/51412), 128.393s (1game)
+[00:49:30 INFO]: [Monopoly] AI started now
+[00:50:50 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 3560.0, 1360, reward sum: 194.71289840037534
+	2: AI2 (2): 2839.0, 1269, reward sum: 180.54889840037535
+	3: AI3 (3): 1391.0, 421, reward sum: 78.64905337935842
+	4: AI1 (1): 202.0800000000001, -1, reward sum: 66.31507195113164
+	bNwC: 320, reward value: 15.0, reward mean: 130.05648053281018
+[00:50:50 INFO]: [Monopoly] ranks of AI: [59, 34, 17, 24]
+ranks of randomizer: [8, 33, 50, 43]
+[00:50:50 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-10.221381","agent_4":"111.689642","agent_2":"51.182312","agent_3":"4.003338"}
+[00:50:50 INFO]: [Monopoly] Game 67 finished, ActionCount: 904 (/52316), 80.032s (1game)
+[00:50:50 INFO]: [Monopoly] AI started now
+[00:54:25 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 8172.0, 4032, reward sum: 326.42525643013505
+	2: AI2 (2): 3291.0, 1411, reward sum: 125.32477223414062
+	3: AI3 (3): 1823.0, 653, reward sum: 121.00938750062426
+	4: AI1 (1): -120.52000000000004, -256, reward sum: 86.08698014012691
+	bNwC: 340, reward value: 15.0, reward mean: 164.7115990762567
+[00:54:25 INFO]: [Monopoly] ranks of AI: [60, 35, 17, 24]
+ranks of randomizer: [8, 33, 51, 44]
+[00:54:25 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.719200","agent_4":"106.486345","agent_2":"36.019835","agent_3":"10.887835"}
+[00:54:25 INFO]: [Monopoly] Game 68 finished, ActionCount: 2115 (/54431), 215.344s (1game)
+[00:54:25 INFO]: [Monopoly] AI started now
+[00:56:58 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 4880.0, 1870, reward sum: 274.8310385793317
+	2: AI1 (1): 3828.0, 2368, reward sum: 162.5463764111945
+	3: AI3 (3): 2433.0, 1193, reward sum: 94.6044194089065
+	4: AI2 (2): -32.11999999999995, -261, reward sum: 98.54894451187897
+	bNwC: 360, reward value: 15.0, reward mean: 157.63269472782792
+[00:56:58 INFO]: [Monopoly] ranks of AI: [61, 35, 17, 25]
+ranks of randomizer: [8, 34, 52, 44]
+[00:56:58 INFO]: [Monopoly] Terminal Reward: {"agent_1":"31.942000","agent_4":"110.963160","agent_2":"-13.425200","agent_3":"9.574577"}
+[00:56:58 INFO]: [Monopoly] Game 69 finished, ActionCount: 1756 (/56187), 152.545s (1game)
+[00:56:58 INFO]: [Monopoly] AI started now
+[00:57:24 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 1755.0, 105, reward sum: 75.96966736723122
+	2: AI2 (2): 1628.0, 658, reward sum: 57.32983059700777
+	3: AI1 (1): 1603.0, 1483, reward sum: 18.37562642449466
+	4: AI3 (3): 12.279999999999937, -91, reward sum: 12.034180892349577
+	bNwC: 320, reward value: 15.0, reward mean: 40.92732632027081
+[00:57:24 INFO]: [Monopoly] ranks of AI: [62, 36, 17, 25]
+ranks of randomizer: [8, 34, 53, 45]
+[00:57:24 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-0.317358","agent_4":"32.076753","agent_2":"19.892298","agent_3":"-14.281220"}
+[00:57:24 INFO]: [Monopoly] Game 70 finished, ActionCount: 364 (/56551), 25.749s (1game)
+[00:57:24 INFO]: [Monopoly] AI started now
+[00:58:01 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2521.0, 491, reward sum: 95.3065011830812
+	2: AI2 (2): 1532.0, 372, reward sum: 58.137282188131095
+	3: AI3 (3): 1319.0, 629, reward sum: 32.01841247528728
+	4: AI1 (1): 25.7599999999999, -72, reward sum: 15.436942143654438
+	bNwC: 280, reward value: 15.0, reward mean: 50.2247844975385
+[00:58:01 INFO]: [Monopoly] ranks of AI: [63, 37, 17, 25]
+ranks of randomizer: [8, 34, 54, 46]
+[00:58:01 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.261547","agent_4":"37.422506","agent_2":"20.645519","agent_3":"1.977435"}
+[00:58:01 INFO]: [Monopoly] Game 71 finished, ActionCount: 396 (/56947), 37.686s (1game)
+[00:58:01 INFO]: [Monopoly] AI started now
+[01:00:11 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3749.0, 999, reward sum: 304.8043183468166
+	2: AI4 (4): 3006.0, 496, reward sum: 292.89231834681664
+	3: AI3 (3): 1642.0, 682, reward sum: 86.81137942729436
+	4: AI2 (2): -40.640000000000214, -242, reward sum: 115.26592570997438
+	bNwC: 340, reward value: 15.0, reward mean: 199.9434854577255
+[01:00:11 INFO]: [Monopoly] ranks of AI: [63, 38, 17, 26]
+ranks of randomizer: [9, 34, 55, 46]
+[01:00:11 INFO]: [Monopoly] Terminal Reward: {"agent_1":"200.076361","agent_4":"66.672807","agent_2":"-13.193400","agent_3":"4.828000"}
+[01:00:11 INFO]: [Monopoly] Game 72 finished, ActionCount: 1519 (/58466), 129.795s (1game)
+[01:00:11 INFO]: [Monopoly] AI started now
+[01:02:16 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 5883.0, 2883, reward sum: 218.8688025923763
+	2: AI1 (1): 1974.0, 714, reward sum: 120.1918648067373
+	3: AI3 (3): 1618.0, 648, reward sum: 110.75703010112105
+	4: AI4 (4): 40.200000000000045, -115, reward sum: 83.60896818992804
+	bNwC: 334, reward value: 15.0, reward mean: 133.35666642254068
+[01:02:16 INFO]: [Monopoly] ranks of AI: [64, 38, 17, 27]
+ranks of randomizer: [9, 35, 56, 46]
+[01:02:16 INFO]: [Monopoly] Terminal Reward: {"agent_1":"22.956000","agent_4":"-14.028000","agent_2":"62.994549","agent_3":"4.792000"}
+[01:02:16 INFO]: [Monopoly] Game 73 finished, ActionCount: 1776 (/60242), 125.142s (1game)
+[01:02:16 INFO]: [Monopoly] AI started now
+[01:02:36 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2091.0, 771, reward sum: 58.810335387767445
+	2: AI4 (4): 1789.0, 1089, reward sum: 33.082543126649014
+	3: AI3 (3): 1210.0, 1210, reward sum: 5.790999999999979
+	4: AI1 (1): 36.39999999999998, -30, reward sum: 2.1782778142628345
+	bNwC: 256, reward value: 15.0, reward mean: 24.96553908216982
+[01:02:36 INFO]: [Monopoly] ranks of AI: [65, 39, 17, 27]
+ranks of randomizer: [9, 35, 57, 47]
+[01:02:36 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.402459","agent_4":"18.932357","agent_2":"31.424689","agent_3":"-2.610000"}
+[01:02:36 INFO]: [Monopoly] Game 74 finished, ActionCount: 232 (/60474), 19.693s (1game)
+[01:02:36 INFO]: [Monopoly] AI started now
+[01:03:26 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 1769.0, 669, reward sum: 93.85086430259574
+	2: AI4 (4): 1693.0, 253, reward sum: 88.08686430259573
+	3: AI3 (3): 1430.0, 240, reward sum: 43.57586652171793
+	4: AI1 (1): 150.7599999999999, -22, reward sum: 36.7324279736482
+	bNwC: 312, reward value: 15.0, reward mean: 65.5615057751394
+[01:03:26 INFO]: [Monopoly] ranks of AI: [66, 40, 17, 27]
+ranks of randomizer: [9, 35, 58, 48]
+[01:03:26 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-12.716066","agent_4":"32.024650","agent_2":"50.491716","agent_3":"5.423203"}
+[01:03:26 INFO]: [Monopoly] Game 75 finished, ActionCount: 574 (/61048), 49.592s (1game)
+[01:03:26 INFO]: [Monopoly] AI started now
+[01:03:49 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2418.0, 518, reward sum: 79.66751768279539
+	2: AI3 (3): 1470.0, 890, reward sum: 32.5559246568507
+	3: AI2 (2): 1360.0, 10, reward sum: 49.63551768279538
+	4: AI1 (1): 89.2400000000001, -28, reward sum: 17.92558369830996
+	bNwC: 320, reward value: 15.0, reward mean: 44.94613593018786
+[01:03:49 INFO]: [Monopoly] ranks of AI: [67, 40, 18, 27]
+ranks of randomizer: [9, 36, 58, 49]
+[01:03:49 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.894954","agent_4":"41.846211","agent_2":"6.553283","agent_3":"16.911925"}
+[01:03:49 INFO]: [Monopoly] Game 76 finished, ActionCount: 384 (/61432), 23.95s (1game)
+[01:03:49 INFO]: [Monopoly] AI started now
+[01:04:36 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 1955.0, 195, reward sum: 120.39328264629196
+	2: AI2 (2): 1719.0, 369, reward sum: 102.43129265306871
+	3: AI1 (1): 1304.0, 404, reward sum: 40.027183756266275
+	4: AI3 (3): 182.4399999999999, -18, reward sum: 33.19435425286809
+	bNwC: 358, reward value: 15.0, reward mean: 74.01152832712376
+[01:04:36 INFO]: [Monopoly] ranks of AI: [68, 41, 18, 27]
+ranks of randomizer: [9, 36, 59, 50]
+[01:04:36 INFO]: [Monopoly] Terminal Reward: {"agent_1":"3.210177","agent_4":"33.453369","agent_2":"28.923854","agent_3":"-12.552237"}
+[01:04:36 INFO]: [Monopoly] Game 77 finished, ActionCount: 620 (/62052), 46.738s (1game)
+[01:04:36 INFO]: [Monopoly] AI started now
+[01:05:43 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2919.0, 1109, reward sum: 141.76635750590657
+	2: AI2 (2): 2070.0, 680, reward sum: 97.1349188396165
+	3: AI3 (3): 1494.0, 254, reward sum: 62.730813499624304
+	4: AI1 (1): -19.560000000000088, -168, reward sum: 36.44806205367715
+	bNwC: 331, reward value: 15.0, reward mean: 84.52003797470613
+[01:05:43 INFO]: [Monopoly] ranks of AI: [69, 42, 18, 27]
+ranks of randomizer: [9, 36, 60, 51]
+[01:05:43 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.152312","agent_4":"39.896390","agent_2":"24.183844","agent_3":"6.014853"}
+[01:05:43 INFO]: [Monopoly] Game 78 finished, ActionCount: 872 (/62924), 66.444s (1game)
+[01:05:43 INFO]: [Monopoly] AI started now
+[01:06:04 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 1792.0000000000002, 1422, reward sum: 53.596177742823954
+	2: AI4 (4): 1770.0, 750, reward sum: 43.90812198925404
+	3: AI2 (2): 1391.0, 91, reward sum: 35.07217774282395
+	4: AI3 (3): 37.04000000000005, -113, reward sum: 11.961053101489743
+	bNwC: 320, reward value: 15.0, reward mean: 36.134382644097926
+[01:06:04 INFO]: [Monopoly] ranks of AI: [69, 43, 19, 27]
+ranks of randomizer: [10, 36, 60, 52]
+[01:06:04 INFO]: [Monopoly] Terminal Reward: {"agent_1":"38.707014","agent_4":"20.863826","agent_2":"6.834833","agent_3":"-13.341771"}
+[01:06:04 INFO]: [Monopoly] Game 79 finished, ActionCount: 251 (/63175), 21.004s (1game)
+[01:06:04 INFO]: [Monopoly] AI started now
+[01:07:52 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2878.0, 1183, reward sum: 183.53272122712696
+	2: AI2 (2): 2528.0, 398, reward sum: 159.8812344948649
+	3: AI4 (4): 2311.0, 941, reward sum: 126.2004875964578
+	4: AI3 (3): 105.2400000000001, -28, reward sum: 107.89245403004749
+	bNwC: 342, reward value: 15.0, reward mean: 144.3767243371243
+[01:07:52 INFO]: [Monopoly] ranks of AI: [69, 44, 20, 27]
+ranks of randomizer: [11, 36, 60, 53]
+[01:07:52 INFO]: [Monopoly] Terminal Reward: {"agent_1":"39.369178","agent_4":"9.985858","agent_2":"30.827650","agent_3":"-7.391788"}
+[01:07:52 INFO]: [Monopoly] Game 80 finished, ActionCount: 1404 (/64579), 108.587s (1game)
+[01:07:52 INFO]: [Monopoly] AI started now
+[01:10:15 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 5022.0, 1522, reward sum: 346.8145251877057
+	2: AI2 (2): 4066.0, 1616, reward sum: 329.1905251877057
+	3: AI3 (3): 2360.0, 1860, reward sum: 82.79733559886517
+	4: AI1 (1): 99.04000000000005, -38, reward sum: 88.54665615314792
+	bNwC: 340, reward value: 15.0, reward mean: 211.83726053185615
+[01:10:15 INFO]: [Monopoly] ranks of AI: [70, 45, 20, 27]
+ranks of randomizer: [11, 36, 61, 54]
+[01:10:15 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.817741","agent_4":"191.142609","agent_2":"66.617424","agent_3":"4.947676"}
+[01:10:15 INFO]: [Monopoly] Game 81 finished, ActionCount: 1460 (/66039), 142.498s (1game)
+[01:10:15 INFO]: [Monopoly] AI started now
+[01:11:06 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2626.0, 526, reward sum: 118.57608819243687
+	2: AI3 (3): 2514.0, 764, reward sum: 96.34316582390373
+	3: AI2 (2): 1625.0, 465, reward sum: 54.89818957472359
+	4: AI1 (1): 75.0, -25, reward sum: 24.754549685617036
+	bNwC: 320, reward value: 15.0, reward mean: 73.6429983191703
+[01:11:06 INFO]: [Monopoly] ranks of AI: [71, 45, 21, 27]
+ranks of randomizer: [11, 37, 61, 55]
+[01:11:06 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.035034","agent_4":"39.254371","agent_2":"6.052237","agent_3":"27.957248"}
+[01:11:06 INFO]: [Monopoly] Game 82 finished, ActionCount: 561 (/66600), 50.944s (1game)
+[01:11:06 INFO]: [Monopoly] AI started now
+[01:12:46 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2821.0, 506, reward sum: 240.70365449152916
+	2: AI2 (2): 2815.0, 1905, reward sum: 224.74965449152916
+	3: AI3 (3): 1286.0, 286, reward sum: 101.12626061442707
+	4: AI1 (1): 118.71999999999962, -184, reward sum: 148.11824483305907
+	bNwC: 350, reward value: 15.0, reward mean: 178.6744536076361
+[01:12:46 INFO]: [Monopoly] ranks of AI: [72, 46, 21, 27]
+ranks of randomizer: [11, 37, 62, 56]
+[01:12:46 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-10.989471","agent_4":"112.939449","agent_2":"52.012016","agent_3":"4.521454"}
+[01:12:46 INFO]: [Monopoly] Game 83 finished, ActionCount: 1307 (/67907), 100.068s (1game)
+[01:12:46 INFO]: [Monopoly] AI started now
+[01:16:39 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 5642.0, 3172, reward sum: 323.0813268396895
+	2: AI4 (4): 4550.0, 2155, reward sum: 191.6753025578754
+	3: AI3 (3): 1816.0, 126, reward sum: 134.34350164800838
+	4: AI1 (1): -59.31999999999999, -271, reward sum: 75.9063725667222
+	bNwC: 365, reward value: 15.0, reward mean: 181.25162590307386
+[01:16:39 INFO]: [Monopoly] ranks of AI: [73, 47, 21, 27]
+ranks of randomizer: [11, 37, 63, 57]
+[01:16:39 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.217200","agent_4":"43.157917","agent_2":"80.782593","agent_3":"20.711180"}
+[01:16:39 INFO]: [Monopoly] Game 84 finished, ActionCount: 2722 (/70629), 232.808s (1game)
+[01:16:39 INFO]: [Monopoly] AI started now
+[01:17:03 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 1536.0, 236, reward sum: 72.92850823137633
+	2: AI4 (4): 1534.0, 694, reward sum: 44.42175143633562
+	3: AI3 (3): 1140.0, 230, reward sum: 29.1425601338768
+	4: AI1 (1): -88.0, -300, reward sum: 15.940311474356966
+	bNwC: 280, reward value: 15.0, reward mean: 40.608282818986424
+[01:17:03 INFO]: [Monopoly] ranks of AI: [74, 48, 21, 27]
+ranks of randomizer: [11, 37, 64, 58]
+[01:17:03 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.033404","agent_4":"18.736270","agent_2":"29.091777","agent_3":"2.584121"}
+[01:17:03 INFO]: [Monopoly] Game 85 finished, ActionCount: 307 (/70936), 24.653s (1game)
+[01:17:03 INFO]: [Monopoly] AI started now
+[01:20:32 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 6041.0, 4161, reward sum: 228.70347368645866
+	2: AI4 (4): 3307.0, 1477, reward sum: 209.96747368645865
+	3: AI3 (3): 3181.0, 1541, reward sum: 138.37177980985726
+	4: AI1 (1): 179.45999999999995, -12, reward sum: 144.66427320204465
+	bNwC: 340, reward value: 15.0, reward mean: 180.4267500962048
+[01:20:32 INFO]: [Monopoly] ranks of AI: [75, 49, 21, 27]
+ranks of randomizer: [11, 37, 65, 59]
+[01:20:32 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-10.497883","agent_4":"32.510400","agent_2":"105.471879","agent_3":"19.139835"}
+[01:20:32 INFO]: [Monopoly] Game 86 finished, ActionCount: 1821 (/72757), 208.382s (1game)
+[01:20:32 INFO]: [Monopoly] AI started now
+[01:21:18 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 3062.0, 1472, reward sum: 96.9790304610816
+	2: AI2 (2): 2143.0, 623, reward sum: 85.3830304610816
+	3: AI3 (3): 1054.0, 474, reward sum: 26.075903089212893
+	4: AI1 (1): 73.12000000000003, -39, reward sum: 23.905481376516356
+	bNwC: 332, reward value: 15.0, reward mean: 58.08586134697311
+[01:21:18 INFO]: [Monopoly] ranks of AI: [76, 50, 21, 27]
+ranks of randomizer: [11, 37, 66, 60]
+[01:21:18 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.530962","agent_4":"38.040902","agent_2":"25.277623","agent_3":"0.249363"}
+[01:21:18 INFO]: [Monopoly] Game 87 finished, ActionCount: 467 (/73224), 46.8s (1game)
+[01:21:18 INFO]: [Monopoly] AI started now
+[01:22:29 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2994.0, 1289, reward sum: 149.27270615063975
+	2: AI2 (2): 2046.0, 686, reward sum: 98.36447806528608
+	3: AI3 (3): 1415.0, 395, reward sum: 86.60949336692337
+	4: AI4 (4): 143.79999999999995, -60, reward sum: 98.86470615063975
+	bNwC: 340, reward value: 15.0, reward mean: 108.27784593337223
+[01:22:29 INFO]: [Monopoly] ranks of AI: [76, 51, 21, 28]
+ranks of randomizer: [12, 37, 67, 60]
+[01:22:29 INFO]: [Monopoly] Terminal Reward: {"agent_1":"66.392659","agent_4":"-7.446190","agent_2":"23.905435","agent_3":"4.393363"}
+[01:22:29 INFO]: [Monopoly] Game 88 finished, ActionCount: 986 (/74210), 70.737s (1game)
+[01:22:29 INFO]: [Monopoly] AI started now
+[01:23:18 INFO]: [Monopoly] ranking:
+	1: AI2 (2): 2269.0, 339, reward sum: 112.3140979305997
+	2: AI4 (4): 1740.0, 260, reward sum: 99.9980979305997
+	3: AI1 (1): 852.0, 192, reward sum: 34.95910212254499
+	4: AI3 (3): 54.0800000000001, -151, reward sum: 50.026996553936065
+	bNwC: 320, reward value: 15.0, reward mean: 74.32457363442012
+[01:23:18 INFO]: [Monopoly] ranks of AI: [77, 52, 21, 28]
+ranks of randomizer: [12, 37, 68, 61]
+[01:23:18 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-0.077823","agent_4":"29.788166","agent_2":"43.113743","agent_3":"-12.629220"}
+[01:23:18 INFO]: [Monopoly] Game 89 finished, ActionCount: 663 (/74873), 49.097s (1game)
+[01:23:18 INFO]: [Monopoly] AI started now
+[01:23:52 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 1899.0, 1039, reward sum: 103.44549887558155
+	2: AI2 (2): 1705.0, 545, reward sum: 56.994712505903
+	3: AI3 (3): 1246.0, 206, reward sum: 33.63968484818251
+	4: AI4 (4): 65.39999999999986, -105, reward sum: 61.97349887558155
+	bNwC: 326, reward value: 15.0, reward mean: 64.01334877631214
+[01:23:52 INFO]: [Monopoly] ranks of AI: [77, 53, 21, 29]
+ranks of randomizer: [13, 37, 69, 61]
+[01:23:52 INFO]: [Monopoly] Terminal Reward: {"agent_1":"78.906290","agent_4":"-4.516431","agent_2":"21.348051","agent_3":"3.782853"}
+[01:23:52 INFO]: [Monopoly] Game 90 finished, ActionCount: 490 (/75363), 33.652s (1game)
+[01:23:52 INFO]: [Monopoly] AI started now
+[01:24:56 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2148.0, 458, reward sum: 166.41387816098808
+	2: AI1 (1): 1755.0, 715, reward sum: 85.45214856705093
+	3: AI3 (3): 1309.0, 109, reward sum: 72.93694443112932
+	4: AI2 (2): 140.16, -52, reward sum: 119.39547816098808
+	bNwC: 350, reward value: 15.0, reward mean: 111.0496123300391
+[01:24:56 INFO]: [Monopoly] ranks of AI: [78, 53, 21, 30]
+ranks of randomizer: [13, 38, 70, 61]
+[01:24:56 INFO]: [Monopoly] Terminal Reward: {"agent_1":"20.826925","agent_4":"36.749931","agent_2":"-12.657814","agent_3":"4.999203"}
+[01:24:56 INFO]: [Monopoly] Game 91 finished, ActionCount: 1062 (/76425), 64.017s (1game)
+[01:24:56 INFO]: [Monopoly] AI started now
+[01:25:55 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2386.0, 666, reward sum: 121.52698125359852
+	2: AI2 (2): 2141.0, 1021, reward sum: 80.80302949159079
+	3: AI3 (3): 1120.0, 0, reward sum: 50.89727734945319
+	4: AI1 (1): 120.75999999999989, -22, reward sum: 51.10779332569947
+	bNwC: 380, reward value: 15.0, reward mean: 76.08377035508549
+[01:25:55 INFO]: [Monopoly] ranks of AI: [79, 54, 21, 30]
+ranks of randomizer: [13, 38, 71, 62]
+[01:25:55 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.603914","agent_4":"35.819051","agent_2":"22.836879","agent_3":"4.246005"}
+[01:25:55 INFO]: [Monopoly] Game 92 finished, ActionCount: 777 (/77202), 58.569s (1game)
+[01:25:55 INFO]: [Monopoly] AI started now
+[01:27:39 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 3173.0, 983, reward sum: 178.3689293699106
+	2: AI4 (4): 2878.0, 458, reward sum: 166.13575998869447
+	3: AI3 (3): 2333.0, 913, reward sum: 126.48906874229782
+	4: AI2 (2): 23.520000000000017, -69, reward sum: 123.18612936991062
+	bNwC: 340, reward value: 15.0, reward mean: 148.5449718677034
+[01:27:39 INFO]: [Monopoly] ranks of AI: [79, 55, 21, 31]
+ranks of randomizer: [14, 38, 72, 62]
+[01:27:39 INFO]: [Monopoly] Terminal Reward: {"agent_1":"68.613552","agent_4":"34.782367","agent_2":"-7.882152","agent_3":"10.377869"}
+[01:27:39 INFO]: [Monopoly] Game 93 finished, ActionCount: 1422 (/78624), 104.617s (1game)
+[01:27:39 INFO]: [Monopoly] AI started now
+[01:28:11 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2355.0, 625, reward sum: 83.52209008740023
+	2: AI2 (2): 1393.0, 483, reward sum: 54.97494734212866
+	3: AI1 (1): 1357.0, 267, reward sum: 35.39339811938791
+	4: AI3 (3): -8.0, -150, reward sum: 20.082135101673863
+	bNwC: 374, reward value: 15.0, reward mean: 48.49314266264767
+[01:28:11 INFO]: [Monopoly] ranks of AI: [80, 56, 21, 31]
+ranks of randomizer: [14, 38, 73, 63]
+[01:28:11 INFO]: [Monopoly] Terminal Reward: {"agent_1":"4.522646","agent_4":"35.369425","agent_2":"18.587131","agent_3":"-14.134782"}
+[01:28:11 INFO]: [Monopoly] Game 94 finished, ActionCount: 425 (/79049), 32.269s (1game)
+[01:28:11 INFO]: [Monopoly] AI started now
+[01:29:01 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 2511.0, 751, reward sum: 102.59643105838083
+	2: AI2 (2): 2148.0, 378, reward sum: 93.70443105838083
+	3: AI3 (3): 1457.0, 877, reward sum: 31.719102042236553
+	4: AI1 (1): 73.08, -26, reward sum: 25.765625884375993
+	bNwC: 340, reward value: 15.0, reward mean: 63.44639751084355
+[01:29:01 INFO]: [Monopoly] ranks of AI: [81, 57, 21, 31]
+ranks of randomizer: [14, 38, 74, 64]
+[01:29:01 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-14.055050","agent_4":"55.051750","agent_2":"26.812250","agent_3":"1.861692"}
+[01:29:01 INFO]: [Monopoly] Game 95 finished, ActionCount: 546 (/79595), 49.031s (1game)
+[01:29:01 INFO]: [Monopoly] AI started now
+[01:30:58 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 3604.0, 874, reward sum: 221.0316797441239
+	2: AI2 (2): 3514.0, 1464, reward sum: 209.0916797441239
+	3: AI1 (1): 2000.0, 1440, reward sum: 81.5907875644698
+	4: AI3 (3): 34.43999999999991, -93, reward sum: 70.82627422824449
+	bNwC: 340, reward value: 15.0, reward mean: 145.6351053202405
+[01:30:58 INFO]: [Monopoly] ranks of AI: [82, 58, 21, 31]
+ranks of randomizer: [14, 38, 75, 65]
+[01:30:58 INFO]: [Monopoly] Terminal Reward: {"agent_1":"3.860000","agent_4":"87.417719","agent_2":"61.868972","agent_3":"-14.107600"}
+[01:30:58 INFO]: [Monopoly] Game 96 finished, ActionCount: 1676 (/81271), 117.393s (1game)
+[01:30:58 INFO]: [Monopoly] AI started now
+[01:31:14 INFO]: [Monopoly] ranking:
+	1: AI3 (3): 1990.0, 1290, reward sum: 46.6325038857438
+	2: AI1 (1): 1820.0, 1290, reward sum: 30.19095307333336
+	3: AI2 (2): 1495.0, 275, reward sum: 25.272503885743806
+	4: AI4 (4): 71.0, -25, reward sum: 2.111054030723974
+	bNwC: 306, reward value: 15.0, reward mean: 26.051753718886236
+[01:31:14 INFO]: [Monopoly] ranks of AI: [82, 58, 22, 32]
+ranks of randomizer: [15, 39, 75, 65]
+[01:31:14 INFO]: [Monopoly] Terminal Reward: {"agent_1":"18.039926","agent_4":"-14.094869","agent_2":"6.035362","agent_3":"34.390632"}
+[01:31:14 INFO]: [Monopoly] Game 97 finished, ActionCount: 193 (/81464), 16.195s (1game)
+[01:31:14 INFO]: [Monopoly] AI started now
+[01:31:56 INFO]: [Monopoly] ranking:
+	1: AI4 (4): 1942.0, 972, reward sum: 80.88493020201136
+	2: AI1 (1): 1917.0, 597, reward sum: 57.18679129051458
+	3: AI2 (2): 1542.0, 322, reward sum: 58.28493020201136
+	4: AI3 (3): 125.68000000000004, -21, reward sum: 28.480000219130435
+	bNwC: 334, reward value: 15.0, reward mean: 56.209162978416934
+[01:31:56 INFO]: [Monopoly] ranks of AI: [83, 58, 23, 32]
+ranks of randomizer: [15, 40, 75, 66]
+[01:31:56 INFO]: [Monopoly] Terminal Reward: {"agent_1":"23.159390","agent_4":"54.976991","agent_2":"6.553768","agent_3":"-13.571972"}
+[01:31:56 INFO]: [Monopoly] Game 98 finished, ActionCount: 445 (/81909), 41.897s (1game)
+[01:31:56 INFO]: [Monopoly] AI started now
+[01:32:46 INFO]: [Monopoly] ranking:
+	1: AI1 (1): 2051.0, 271, reward sum: 91.07799619939954
+	2: AI4 (4): 1839.0, 1009, reward sum: 57.03516828429026
+	3: AI3 (3): 1678.0, 298, reward sum: 60.68027560907693
+	4: AI2 (2): 117.04000000000005, -13, reward sum: 42.9090070885151
+	bNwC: 360, reward value: 15.0, reward mean: 62.92561179532045
+[01:32:46 INFO]: [Monopoly] ranks of AI: [83, 59, 23, 33]
+ranks of randomizer: [16, 40, 76, 66]
+[01:32:46 INFO]: [Monopoly] Terminal Reward: {"agent_1":"34.429576","agent_4":"19.891863","agent_2":"-13.656391","agent_3":"8.007363"}
+[01:32:46 INFO]: [Monopoly] Game 99 finished, ActionCount: 533 (/82442), 50.245s (1game)
+[01:32:46 INFO]: [Monopoly] AI started now
+stog[01:33:19 INFO]: [Monopoly] ranking:
+	1: AI3 (3): 2014.0, 1434, reward sum: 55.845913577083266
+	2: AI2 (2): 1619.0, 889, reward sum: 40.01814929361662
+	3: AI4 (4): 1302.0, 282, reward sum: 32.758211025009615
+	4: AI1 (1): 53.399999999999864, -155, reward sum: 15.773913577083267
+	bNwC: 320, reward value: 15.0, reward mean: 36.09904686819819
+[01:33:19 INFO]: [Monopoly] ranks of AI: [83, 60, 24, 33]
+ranks of randomizer: [17, 40, 76, 67]
+[01:33:19 INFO]: [Monopoly] Terminal Reward: {"agent_1":"-13.037414","agent_4":"3.885319","agent_2":"18.411460","agent_3":"30.018912"}
+[01:33:19 INFO]: [Monopoly] Game 100 finished, ActionCount: 344 (/82786), 33.015s (1game)
+[01:33:19 INFO]: [Monopoly] AI started now
+
+[01:33:22 INFO]:
+stopped the game
